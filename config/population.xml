@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plans SYSTEM "http://www.matsim.org/files/dtd/plans_v4.dtd">
+<plans>
+   <person employed="no" age="12" id="1">
+      <plan selected="yes">
+         <act end_time="05:01:00" x="0" y="0" type="home"/>
+         <leg mode="pt"/>
+         <act end_time="12:35:00" x="300" y="10" type="home"/>
+      </plan>
+   </person>
+   <person employed="no" age="13" id="2">
+      <plan selected="yes">
+         <act end_time="05:20:00" x="200" y="0" type="home"/>
+         <leg mode="pt"/>
+         <act end_time="12:35:00" x="100" y="10" type="home"/>
+      </plan>
+   </person>
+</plans>
