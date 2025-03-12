@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE network SYSTEM "http://matsim.org/files/dtd/network_v1.dtd">
+<network>
+  <nodes>
+    <node id="Bratysławska1" x="19.93416" y="50.08373"/>
+    <node id="Bratysławska2" x="19.933583" y="50.084645"/>
+    <node id="KrowodrzaGórka1" x="19.931257" y="50.088727"/>
+    <node id="DworzecTowarowy1" x="19.940292" y="50.075988"/>
+    <node id="DworzecTowarowy2" x="19.940326" y="50.075943"/>
+    <node id="DworzecTowarowy3" x="19.93968" y="50.074994"/>
+    <node id="NowyKleparz1" x="19.93663" y="50.07349"/>
+    <node id="NowyKleparz2" x="19.936452" y="50.073508"/>
+    <node id="Pędzichów1" x="19.937536" y="50.069678"/>
+    <node id="Pędzichów2" x="19.937499" y="50.069646"/>
+    <node id="Politechnika1" x="19.945059" y="50.071341"/>
+    <node id="Politechnika2" x="19.945062" y="50.070807"/>
+    <node id="Politechnika3" x="19.945072" y="50.071143"/>
+    <node id="Politechnika4" x="19.945016" y="50.071056"/>
+    <node id="TeatrBagatela1" x="19.932648" y="50.0631"/>
+    <node id="TeatrBagatela2" x="19.933366" y="50.063806"/>
+    <node id="TeatrBagatela3" x="19.932586" y="50.063755"/>
+    <node id="Batorego1" x="19.929432" y="50.066586"/>
+    <node id="Batorego2" x="19.928837" y="50.067023"/>
+    <node id="PlacInwalidów1" x="19.926981" y="50.068728"/>
+    <node id="PlacInwalidów2" x="19.925897" y="50.069585"/>
+    <node id="Urzędnicza1" x="19.919754" y="50.071879"/>
+    <node id="Urzędnicza2" x="19.91925" y="50.071957"/>
+    <node id="Biprostal1" x="19.916075" y="50.072862"/>
+    <node id="Biprostal2" x="19.915045" y="50.07309"/>
+    <node id="CichyKącik1" x="19.903385" y="50.062955"/>
+    <node id="UniwersytetPedagogiczny1" x="19.910791" y="50.074123"/>
+    <node id="UniwersytetPedagogiczny2" x="19.909991" y="50.07426"/>
+    <node id="Bronowice1" x="19.901982" y="50.077246"/>
+    <node id="Bronowice2" x="19.900684" y="50.077751"/>
+    <node id="Bronowice3" x="19.900593" y="50.077834"/>
+    <node id="Stella-Sawickiego1" x="20.004747" y="50.074273"/>
+    <node id="Stella-Sawickiego2" x="20.00459" y="50.074302"/>
+    <node id="AWF1" x="19.99881" y="50.073967"/>
+    <node id="AWF2" x="19.999451" y="50.074039"/>
+    <node id="CmentarzRakowicki1" x="19.957387" y="50.074262"/>
+    <node id="CmentarzRakowicki2" x="19.95609" y="50.072936"/>
+    <node id="RondoMogilskie1" x="19.959639" y="50.065782"/>
+    <node id="RondoMogilskie2" x="19.959864" y="50.065759"/>
+    <node id="RondoMogilskie3" x="19.959303" y="50.064865"/>
+    <node id="RondoMogilskie4" x="19.959357" y="50.064973"/>
+    <node id="RondoMogilskie5" x="19.958722" y="50.066002"/>
+    <node id="Lubicz1" x="19.952104" y="50.065186"/>
+    <node id="Lubicz2" x="19.951094" y="50.065046"/>
+    <node id="Lubicz3" x="19.951621" y="50.065436"/>
+    <node id="UniwersytetEkonomiczny1" x="19.952235" y="50.067608"/>
+    <node id="UniwersytetEkonomiczny2" x="19.952638" y="50.068328"/>
+    <node id="Rakowicka(nż)1" x="19.954319" y="50.070599"/>
+    <node id="Rakowicka(nż)2" x="19.95445" y="50.070893"/>
+    <node id="Cystersów1" x="19.970519" y="50.066523"/>
+    <node id="Cystersów2" x="19.969149" y="50.06654"/>
+    <node id="Białucha1" x="19.977991" y="50.067841"/>
+    <node id="Białucha2" x="19.977192" y="50.067597"/>
+    <node id="Wesele1" x="19.897857" y="50.078856"/>
+    <node id="Wesele2" x="19.896704" y="50.079235"/>
+    <node id="BronowiceMałe1" x="19.88192" y="50.08179"/>
+    <node id="Salwator1" x="19.913739" y="50.052708"/>
+    <node id="Salwator2" x="19.915028" y="50.052724"/>
+    <node id="Salwator3" x="19.917407" y="50.05263"/>
+    <node id="Komorowskiego1" x="19.9218" y="50.053412"/>
+    <node id="Komorowskiego2" x="19.921893" y="50.053384"/>
+    <node id="Jubilat1" x="19.928109" y="50.055498"/>
+    <node id="Jubilat2" x="19.927052" y="50.054999"/>
+    <node id="Reymana1" x="19.911163" y="50.061364"/>
+    <node id="Reymana2" x="19.910722" y="50.061356"/>
+    <node id="UniwersytetJagielloński1" x="19.930614" y="50.060266"/>
+    <node id="UniwersytetJagielloński2" x="19.931536" y="50.060357"/>
+    <node id="Filharmonia1" x="19.93387" y="50.05903"/>
+    <node id="Filharmonia2" x="19.933001" y="50.058666"/>
+    <node id="Filharmonia3" x="19.9331" y="50.05917"/>
+    <node id="Wawel1" x="19.93963" y="50.05449"/>
+    <node id="Wawel2" x="19.93939" y="50.05431"/>
+    <node id="PocztaGłówna1" x="19.942404" y="50.059797"/>
+    <node id="PocztaGłówna2" x="19.942571" y="50.059205"/>
+    <node id="PocztaGłówna3" x="19.941821" y="50.059339"/>
+    <node id="Starowiślna1" x="19.94455" y="50.05731"/>
+    <node id="Starowiślna2" x="19.945029" y="50.05689"/>
+    <node id="Starowiślna3" x="19.946086" y="50.057227"/>
+    <node id="Starowiślna4" x="19.946032" y="50.057262"/>
+    <node id="Stradom1" x="19.941361" y="50.051545"/>
+    <node id="Stradom2" x="19.94123" y="50.052059"/>
+    <node id="Stradom3" x="19.942184" y="50.052119"/>
+    <node id="Stradom4" x="19.942481" y="50.051016"/>
+    <node id="PlacWolnica1" x="19.943406" y="50.047938"/>
+    <node id="PlacWolnica2" x="19.943424" y="50.048048"/>
+    <node id="Orzeszkowej1" x="19.938671" y="50.050631"/>
+    <node id="Orzeszkowej2" x="19.938251" y="50.050546"/>
+    <node id="Miodowa1" x="19.948108" y="50.053886"/>
+    <node id="Miodowa2" x="19.9489" y="50.05321"/>
+    <node id="HalaTargowa1" x="19.948875" y="50.058639"/>
+    <node id="HalaTargowa2" x="19.949004" y="50.058701"/>
+    <node id="RondoGrzegórzeckie1" x="19.960296" y="50.057888"/>
+    <node id="RondoGrzegórzeckie2" x="19.957748" y="50.057558"/>
+    <node id="RondoGrzegórzeckie3" x="19.959244" y="50.058426"/>
+    <node id="RondoGrzegórzeckie4" x="19.958941" y="50.056894"/>
+    <node id="FrancescoNullo1" x="19.966793" y="50.060001"/>
+    <node id="FrancescoNullo2" x="19.967382" y="50.060173"/>
+    <node id="Fabryczna1" x="19.970172" y="50.060437"/>
+    <node id="Fabryczna2" x="19.971272" y="50.060251"/>
+    <node id="OfiarDąbia1" x="19.976363" y="50.05959"/>
+    <node id="OfiarDąbia2" x="19.976271" y="50.059629"/>
+    <node id="Dąbie1" x="19.979185" y="50.060724"/>
+    <node id="Dąbie2" x="19.979128" y="50.060731"/>
+    <node id="Mistrzejowice1" x="19.996302" y="50.095011"/>
+    <node id="Os.ZłotegoWieku1" x="20.004333" y="50.093749"/>
+    <node id="Os.ZłotegoWieku2" x="20.004478" y="50.093667"/>
+    <node id="Os.Piastów1" x="20.012058" y="50.101977"/>
+    <node id="PiastaKołodzieja1" x="20.013018" y="50.097862"/>
+    <node id="PiastaKołodzieja2" x="20.013051" y="50.098526"/>
+    <node id="Kleeberga1" x="20.012713" y="50.095792"/>
+    <node id="Kleeberga2" x="20.012638" y="50.095759"/>
+    <node id="RondoPiastowskie1" x="20.011221" y="50.094372"/>
+    <node id="RondoPiastowskie2" x="20.011302" y="50.094355"/>
+    <node id="Dunikowskiego1" x="20.016038" y="50.092201"/>
+    <node id="Dunikowskiego2" x="20.015491" y="50.092518"/>
+    <node id="DHWanda1" x="20.020671" y="50.084477"/>
+    <node id="DHWanda2" x="20.020689" y="50.084432"/>
+    <node id="Czyżyny1" x="20.011459" y="50.07399"/>
+    <node id="Czyżyny2" x="20.011272" y="50.074038"/>
+    <node id="RondoCzyżyńskie1" x="20.01888" y="50.0733"/>
+    <node id="RondoCzyżyńskie2" x="20.01606" y="50.07358"/>
+    <node id="RondoCzyżyńskie3" x="20.018028" y="50.074193"/>
+    <node id="RondoCzyżyńskie4" x="20.017068" y="50.072758"/>
+    <node id="Centralna1" x="20.012191" y="50.0692"/>
+    <node id="Centralna2" x="20.012742" y="50.069417"/>
+    <node id="Os.Kolorowe1" x="20.0298" y="50.072198"/>
+    <node id="Os.Kolorowe2" x="20.028517" y="50.072371"/>
+    <node id="Os.Zgody1" x="20.030839" y="50.076921"/>
+    <node id="Os.Zgody2" x="20.031524" y="50.076456"/>
+    <node id="TeatrLudowy1" x="20.032708" y="50.082264"/>
+    <node id="TeatrLudowy2" x="20.032035" y="50.081863"/>
+    <node id="Struga1" x="20.046307" y="50.074547"/>
+    <node id="Struga2" x="20.047467" y="50.074892"/>
+    <node id="Wiadukty1" x="20.056799" y="50.08834"/>
+    <node id="Wiadukty2" x="20.056716" y="50.088355"/>
+    <node id="Darwina1" x="20.059144" y="50.09079"/>
+    <node id="Darwina2" x="20.059066" y="50.090798"/>
+    <node id="WzgórzaKrzesławickie1" x="20.065271" y="50.094815"/>
+    <node id="KopiecWandy1" x="20.066722" y="50.069952"/>
+    <node id="KopiecWandy2" x="20.067014" y="50.069726"/>
+    <node id="Bramanr4(nż)1" x="20.074756" y="50.064955"/>
+    <node id="Bramanr4(nż)2" x="20.075212" y="50.064899"/>
+    <node id="Bramanr5(nż)1" x="20.09178" y="50.069176"/>
+    <node id="Bramanr5(nż)2" x="20.092849" y="50.069746"/>
+    <node id="Meksyk(nż)1" x="20.094934" y="50.069826"/>
+    <node id="Meksyk(nż)2" x="20.095243" y="50.069892"/>
+    <node id="Koksochemia(nż)1" x="20.104177" y="50.071758"/>
+    <node id="Koksochemia(nż)2" x="20.10426" y="50.071823"/>
+    <node id="Pleszów1" x="20.116968" y="50.07296"/>
+    <node id="Kombinat1" x="20.065059" y="50.079135"/>
+    <node id="Kombinat2" x="20.065863" y="50.079835"/>
+    <node id="Kombinat3" x="20.066005" y="50.0787"/>
+    <node id="Elektromontaż(nż)1" x="20.064594" y="50.087682"/>
+    <node id="Elektromontaż(nż)2" x="20.064095" y="50.087727"/>
+    <node id="ZajezdniaNowaHuta1" x="20.065554" y="50.083538"/>
+    <node id="ZajezdniaNowaHuta2" x="20.0656" y="50.08358"/>
+    <node id="PH1" x="20.064555" y="50.084174"/>
+    <node id="Gromadzka1" x="19.978092" y="50.040619"/>
+    <node id="Gromadzka2" x="19.978076" y="50.040657"/>
+    <node id="Lipska1" x="19.98442" y="50.040641"/>
+    <node id="Lipska2" x="19.981676" y="50.040688"/>
+    <node id="Lipska3" x="19.982994" y="50.039687"/>
+    <node id="Kuklińskiego1" x="19.973549" y="50.044529"/>
+    <node id="Kuklińskiego2" x="19.973602" y="50.044575"/>
+    <node id="PlacBohaterówGetta1" x="19.955028" y="50.046605"/>
+    <node id="PlacBohaterówGetta2" x="19.9551" y="50.046716"/>
+    <node id="Korona1" x="19.946683" y="50.043604"/>
+    <node id="Korona2" x="19.947497" y="50.044052"/>
+    <node id="Korona3" x="19.94678" y="50.044032"/>
+    <node id="Smolki1" x="19.943119" y="50.041496"/>
+    <node id="Smolki2" x="19.943262" y="50.041629"/>
+    <node id="Szwedzka1" x="19.925299" y="50.046721"/>
+    <node id="Szwedzka2" x="19.925484" y="50.046744"/>
+    <node id="Kapelanka1" x="19.922059" y="50.044913"/>
+    <node id="Kapelanka2" x="19.922048" y="50.045048"/>
+    <node id="Słomiana1" x="19.9241" y="50.041404"/>
+    <node id="Słomiana2" x="19.924547" y="50.040825"/>
+    <node id="Kobierzyńska1" x="19.925931" y="50.03444"/>
+    <node id="Kobierzyńska2" x="19.925986" y="50.034593"/>
+    <node id="Ruczaj1" x="19.905181" y="50.026932"/>
+    <node id="Ruczaj2" x="19.906125" y="50.02729"/>
+    <node id="RondoMatecznego1" x="19.940795" y="50.036959"/>
+    <node id="RondoMatecznego2" x="19.940363" y="50.035927"/>
+    <node id="Rzemieślnicza1" x="19.938697" y="50.033644"/>
+    <node id="Rzemieślnicza2" x="19.938389" y="50.03295"/>
+    <node id="Borsucza1" x="19.928538" y="50.030504"/>
+    <node id="Borsucza2" x="19.929101" y="50.03055"/>
+    <node id="Brożka(nż)1" x="19.931874" y="50.030494"/>
+    <node id="Brożka(nż)2" x="19.93173" y="50.03053"/>
+    <node id="PT1" x="19.934092" y="50.031724"/>
+    <node id="Dworcowa1" x="19.970294" y="50.033435"/>
+    <node id="Dworcowa2" x="19.971078" y="50.032673"/>
+    <node id="Kabel1" x="19.976567" y="50.027229"/>
+    <node id="Kabel2" x="19.977231" y="50.026621"/>
+    <node id="Bieżanowska1" x="19.981791" y="50.023027"/>
+    <node id="Bieżanowska2" x="19.981692" y="50.023119"/>
+    <node id="Bieżanowska3" x="19.97926" y="50.023562"/>
+    <node id="Bieżanowska4" x="19.979431" y="50.023609"/>
+    <node id="Dauna1" x="19.977516" y="50.018289"/>
+    <node id="Dauna2" x="19.977585" y="50.018408"/>
+    <node id="Wlotowa1" x="19.988113" y="50.019364"/>
+    <node id="Wlotowa2" x="19.987851" y="50.019553"/>
+    <node id="Prokocim1" x="19.991105" y="50.017526"/>
+    <node id="Prokocim2" x="19.990988" y="50.017646"/>
+    <node id="Ćwiklińskiej1" x="20.019317" y="50.016057"/>
+    <node id="Ćwiklińskiej2" x="20.019968" y="50.015966"/>
+    <node id="Teligi1" x="20.007159" y="50.016599"/>
+    <node id="Teligi2" x="20.007916" y="50.016511"/>
+    <node id="ProkocimSzpital1" x="19.998952" y="50.014443"/>
+    <node id="ProkocimSzpital2" x="20.000171" y="50.014585"/>
+    <node id="Nowosądecka1" x="19.964635" y="50.013455"/>
+    <node id="Nowosądecka2" x="19.964684" y="50.013437"/>
+    <node id="PiaskiNowe1" x="19.971574" y="50.015482"/>
+    <node id="PiaskiNowe2" x="19.971604" y="50.015447"/>
+    <node id="Witosa1" x="19.956857" y="50.012338"/>
+    <node id="Witosa2" x="19.95579" y="50.012424"/>
+    <node id="Solvay1" x="19.929831" y="50.016651"/>
+    <node id="Solvay2" x="19.929342" y="50.015661"/>
+    <node id="BorekFałęcki1" x="19.927021" y="50.013101"/>
+    <node id="Oleandry1" x="19.921194" y="50.059787"/>
+    <node id="Oleandry2" x="19.920531" y="50.05985"/>
+    <node id="BorekFałęckiI1" x="19.927844" y="50.014602"/>
+    <node id="BorekFałęckiI2" x="19.927837" y="50.014561"/>
+    <node id="Bieńczycka1" x="20.02044" y="50.075661"/>
+    <node id="Bieńczycka2" x="20.02058" y="50.0757"/>
+    <node id="Łagiewniki1" x="19.936964" y="50.030477"/>
+    <node id="Łagiewniki2" x="19.937053" y="50.030486"/>
+    <node id="Łagiewniki3" x="19.935369" y="50.029783"/>
+    <node id="Łagiewniki4" x="19.935946" y="50.029498"/>
+    <node id="Łagiewniki5" x="19.935452" y="50.029682"/>
+    <node id="Klimeckiego1" x="19.967573" y="50.048976"/>
+    <node id="Klimeckiego2" x="19.967621" y="50.049016"/>
+    <node id="ParkJordana1" x="19.918105" y="50.06029"/>
+    <node id="ParkJordana2" x="19.917799" y="50.060224"/>
+    <node id="Głowackiego1" x="19.9068" y="50.07536"/>
+    <node id="Głowackiego2" x="19.905845" y="50.075882"/>
+    <node id="FortMogiła(nż)1" x="20.071272" y="50.066444"/>
+    <node id="FortMogiła(nż)2" x="20.071084" y="50.066382"/>
+    <node id="Zabłocie1" x="19.965148" y="50.0497"/>
+    <node id="Zabłocie2" x="19.964216" y="50.049951"/>
+    <node id="DworzecGłównyTunel1" x="19.947649" y="50.068199"/>
+    <node id="DworzecGłównyTunel2" x="19.947641" y="50.068258"/>
+    <node id="Rzebika1" x="19.992646" y="50.040429"/>
+    <node id="Rzebika2" x="19.990871" y="50.040546"/>
+    <node id="PlacWszystkichŚwiętych1" x="19.93824" y="50.05912"/>
+    <node id="PlacWszystkichŚwiętych2" x="19.937497" y="50.059113"/>
+    <node id="Miśnieńska1" x="19.999999" y="50.094489"/>
+    <node id="Miśnieńska2" x="20.000154" y="50.094406"/>
+    <node id="RondoHipokratesa1" x="20.021395" y="50.090025"/>
+    <node id="RondoHipokratesa2" x="20.021355" y="50.090094"/>
+    <node id="Wańkowicza1" x="20.04756" y="50.086978"/>
+    <node id="Wańkowicza2" x="20.047608" y="50.086937"/>
+    <node id="NowyProkocim1" x="20.012098" y="50.016128"/>
+    <node id="NowyProkocim2" x="20.013226" y="50.016318"/>
+    <node id="DworzecGłównyZachód1" x="19.945354" y="50.06783"/>
+    <node id="DworzecGłównyZachód2" x="19.945408" y="50.067827"/>
+    <node id="Limanowskiego1" x="19.954882" y="50.045136"/>
+    <node id="Limanowskiego2" x="19.955911" y="50.045"/>
+    <node id="CmentarzPodgórski1" x="19.964548" y="50.038989"/>
+    <node id="CmentarzPodgórski2" x="19.964919" y="50.038686"/>
+    <node id="Jarzębiny1" x="20.06071" y="50.091854"/>
+    <node id="Jarzębiny2" x="20.060269" y="50.091631"/>
+    <node id="Lipińskiego1" x="19.924804" y="50.030792"/>
+    <node id="Lipińskiego2" x="19.924874" y="50.030738"/>
+    <node id="Grota-Roweckiego1" x="19.920212" y="50.031867"/>
+    <node id="Grota-Roweckiego2" x="19.921162" y="50.031593"/>
+    <node id="Norymberska1" x="19.912225" y="50.029809"/>
+    <node id="Norymberska2" x="19.913131" y="50.030129"/>
+    <node id="KampusUJ1" x="19.901485" y="50.024044"/>
+    <node id="KampusUJ2" x="19.901995" y="50.024685"/>
+    <node id="Chmieleniec1" x="19.897505" y="50.020377"/>
+    <node id="Chmieleniec2" x="19.898122" y="50.020825"/>
+    <node id="PlacCentralnyim.R.Reagana1" x="20.035631" y="50.071704"/>
+    <node id="PlacCentralnyim.R.Reagana2" x="20.036331" y="50.072961"/>
+    <node id="PlacCentralnyim.R.Reagana3" x="20.038845" y="50.072556"/>
+    <node id="RondoKocmyrzowskieim.Ks.Gorzelanego1" x="20.026561" y="50.080257"/>
+    <node id="RondoKocmyrzowskieim.Ks.Gorzelanego2" x="20.026486" y="50.07905"/>
+    <node id="RondoKocmyrzowskieim.Ks.Gorzelanego3" x="20.028408" y="50.080062"/>
+    <node id="RondoKocmyrzowskieim.Ks.Gorzelanego4" x="20.02806" y="50.079056"/>
+    <node id="MuzeumLotnictwa1" x="19.990472" y="50.07352"/>
+    <node id="MuzeumLotnictwa2" x="19.990254" y="50.073539"/>
+    <node id="ŁagiewnikiZUS1" x="19.933922" y="50.024577"/>
+    <node id="ŁagiewnikiZUS2" x="19.933942" y="50.024478"/>
+    <node id="TeatrVariété1" x="19.962529" y="50.058858"/>
+    <node id="TeatrVariété2" x="19.962374" y="50.058827"/>
+    <node id="DworzecPłaszówEstakada1" x="19.977196" y="50.033556"/>
+    <node id="DworzecPłaszówEstakada2" x="19.976946" y="50.033468"/>
+    <node id="StaryKleparz1" x="19.939721" y="50.066314"/>
+    <node id="StaryKleparz2" x="19.938562" y="50.066234"/>
+    <node id="StaryKleparz3" x="19.93895" y="50.06666"/>
+    <node id="Plaza1" x="19.983996" y="50.063027"/>
+    <node id="Plaza2" x="19.983941" y="50.063038"/>
+    <node id="SzpitalNarutowicza1" x="19.937819" y="50.080721"/>
+    <node id="SzpitalNarutowicza2" x="19.937859" y="50.080649"/>
+    <node id="Cienista1" x="20.03852" y="50.08539"/>
+    <node id="Cienista2" x="20.03772" y="50.08492"/>
+    <node id="CzerwoneMakiP+R1" x="19.889088" y="50.017988"/>
+    <node id="TAURONArenaKrakówWieczysta1" x="19.983839" y="50.071785"/>
+    <node id="TAURONArenaKrakówWieczysta2" x="19.982871" y="50.071103"/>
+    <node id="TAURONArenaKrakówWieczysta3" x="19.985169" y="50.072108"/>
+    <node id="Rondo308.Dywizjonu1" x="20.005379" y="50.067352"/>
+    <node id="Rondo308.Dywizjonu2" x="20.005374" y="50.067398"/>
+    <node id="MuzeumNarodowe1" x="19.92554" y="50.059525"/>
+    <node id="MuzeumNarodowe2" x="19.924504" y="50.059326"/>
+    <node id="PodgórzeSKA1" x="19.960723" y="50.042438"/>
+    <node id="PodgórzeSKA2" x="19.961425" y="50.04184"/>
+    <node id="NowyBieżanówP+R1" x="20.023053" y="50.015608"/>
+    <node id="KurdwanówP+R1" x="19.950409" y="50.013561"/>
+    <node id="TeatrSłowackiego1" x="19.945628" y="50.064609"/>
+    <node id="TeatrSłowackiego2" x="19.944409" y="50.064792"/>
+    <node id="TeatrSłowackiego3" x="19.94499" y="50.064192"/>
+    <node id="TeatrSłowackiego4" x="19.94518" y="50.065006"/>
+    <node id="MałyPłaszówP+R1" x="20.001498" y="50.040064"/>
+    <node id="RondoGrunwaldzkie1" x="19.930917" y="50.048567"/>
+    <node id="RondoGrunwaldzkie2" x="19.931155" y="50.048605"/>
+    <node id="BronowiceSKA1" x="19.889698" y="50.081331"/>
+    <node id="BronowiceSKA2" x="19.888593" y="50.081524"/>
+    <node id="Giedroycia(nż)1" x="20.08447" y="50.06462"/>
+    <node id="Giedroycia(nż)2" x="20.08479" y="50.06473"/>
+    <node id="św.Gertrudy1" x="19.940868" y="50.058461"/>
+    <node id="św.Gertrudy2" x="19.940846" y="50.058396"/>
+    <node id="św.Wawrzyńca1" x="19.951064" y="50.051131"/>
+    <node id="św.Wawrzyńca2" x="19.950829" y="50.051415"/>
+    <node id="M1al.Pokoju1" x="19.997488" y="50.065658"/>
+    <node id="M1al.Pokoju2" x="19.996324" y="50.065502"/>
+    <node id="TAURONArenaKrakówal.Pokoju(nż)1" x="19.988978" y="50.064188"/>
+    <node id="TAURONArenaKrakówal.Pokoju(nż)2" x="19.990077" y="50.064416"/>
+  </nodes>
+  <links capperiod="10:00:00">
+    <!-- TeatrBagatela1 -> Batorego1 -> PlacInwalidów1 -> Urzędnicza1 -> Biprostal1 -> UniwersytetPedagogiczny1 -> Głowackiego1 -> Bronowice3 -> Wesele1 -> BronowiceSKA1 -> BronowiceMałe1 -->
+    <link id="TeatrBagatela1-Batorego1" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="TeatrBagatela1" to="Batorego1"/>
+    <link id="Batorego1-PlacInwalidów1" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="Batorego1" to="PlacInwalidów1"/>
+    <link id="PlacInwalidów1-Urzędnicza1" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="PlacInwalidów1" to="Urzędnicza1"/>
+    <link id="Urzędnicza1-Biprostal1" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="Urzędnicza1" to="Biprostal1"/>
+    <link id="Biprostal1-UniwersytetPedagogiczny1" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="Biprostal1" to="UniwersytetPedagogiczny1"/>
+    <link id="UniwersytetPedagogiczny1-Głowackiego1" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="UniwersytetPedagogiczny1" to="Głowackiego1"/>
+    <link id="Głowackiego1-Bronowice3" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="Głowackiego1" to="Bronowice3"/>
+    <link id="Bronowice3-Wesele1" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="Bronowice3" to="Wesele1"/>
+    <link id="Wesele1-BronowiceSKA1" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="Wesele1" to="BronowiceSKA1"/>
+    <link id="BronowiceSKA1-BronowiceMałe1" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="BronowiceSKA1" to="BronowiceMałe1"/>
+
+    <!-- BronowiceMałe1 -> BronowiceSKA2 -> Wesele2 -> Bronowice2 -> Głowackiego2 -> UniwersytetPedagogiczny2 -> Biprostal2 -> Urzędnicza2 -> PlacInwalidów2 -> Batorego2 -> TeatrBagatela3 -->
+    <link id="BronowiceMałe1-BronowiceSKA2" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="BronowiceMałe1" to="BronowiceSKA2"/>
+    <link id="BronowiceSKA2-Wesele2" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="BronowiceSKA2" to="Wesele2"/>
+    <link id="Wesele2-Bronowice2" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="Wesele2" to="Bronowice2"/>
+    <link id="Bronowice2-Głowackiego2" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="Bronowice2" to="Głowackiego2"/>
+    <link id="Głowackiego2-UniwersytetPedagogiczny2" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="Głowackiego2" to="UniwersytetPedagogiczny2"/>
+    <link id="UniwersytetPedagogiczny2-Biprostal2" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="UniwersytetPedagogiczny2" to="Biprostal2"/>
+    <link id="Biprostal2-Urzędnicza2" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="Biprostal2" to="Urzędnicza2"/>
+    <link id="Urzędnicza2-PlacInwalidów2" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="Urzędnicza2" to="PlacInwalidów2"/>
+    <link id="PlacInwalidów2-Batorego2" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="PlacInwalidów2" to="Batorego2"/>
+    <link id="Batorego2-TeatrBagatela3" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="Batorego2" to="TeatrBagatela3"/>
+
+    <!-- UniwersytetJagielloński1 -> MuzeumNarodowe1 -> Oleandry1 -> ParkJordana1 -> Reymana1 -> CichyKącik1 -->
+    <link id="UniwersytetJagielloński1-MuzeumNarodowe1" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="UniwersytetJagielloński1" to="MuzeumNarodowe1"/>
+    <link id="MuzeumNarodowe1-Oleandry1" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="MuzeumNarodowe1" to="Oleandry1"/>
+    <link id="Oleandry1-ParkJordana1" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="Oleandry1" to="ParkJordana1"/>
+    <link id="ParkJordana1-Reymana1" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="ParkJordana1" to="Reymana1"/>
+    <link id="Reymana1-CichyKącik1" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="Reymana1" to="CichyKącik1"/>
+
+
+    <!-- CichyKącik1 -> Reymana2 -> ParkJordana2 -> Oleandry2 -> MuzeumNarodowe2 -> UniwersytetJagielloński2 -->
+    <link id="CichyKącik1-Reymana2" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="CichyKącik1" to="Reymana2"/>
+    <link id="Reymana2-ParkJordana2" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="Reymana2" to="ParkJordana2"/>
+    <link id="ParkJordana2-Oleandry2" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="ParkJordana2" to="Oleandry2"/>
+    <link id="Oleandry2-MuzeumNarodowe2" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="Oleandry2" to="MuzeumNarodowe2"/>
+    <link id="MuzeumNarodowe2-UniwersytetJagielloński2" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="MuzeumNarodowe2" to="UniwersytetJagielloński2"/>
+
+
+    <!-- Filharmonia1 -> Jubilat1 -> Komorowskiego1 -> Salwator3 -->
+    <link id="Filharmonia1-Jubilat1" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="Filharmonia1" to="Jubilat1"/>
+    <link id="Jubilat1-Komorowskiego1" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="Jubilat1" to="Komorowskiego1"/>
+    <link id="Komorowskiego1-Salwator3" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="Komorowskiego1" to="Salwator3"/>
+
+    <!-- Salwator2 -> Komorowskiego2 -> Jubilat2 -> Filharmonia2 -->
+    <link id="Salwator2-Komorowskiego2" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="Salwator2" to="Komorowskiego2"/>
+    <link id="Komorowskiego2-Jubilat2" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="Komorowskiego2" to="Jubilat2"/>
+    <link id="Jubilat2-Filharmonia2" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="Jubilat2" to="Filharmonia2"/>
+
+    <!-- BorekFałęcki1 -> BorekFałęckiI2 -> Solvay2 -> ŁagiewnikiZUS2 -> Łagiewniki2 -> Rzemieślnicza2 -> RondoMatecznego2 -> Smolki2 -> Korona1 -->
+    <link id="BorekFałęcki1-BorekFałęckiI2" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="BorekFałęcki1" to="BorekFałęckiI2"/>
+    <link id="BorekFałęckiI2-Solvay2" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="BorekFałęckiI2" to="Solvay2"/>
+    <link id="Solvay2-ŁagiewnikiZUS2" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="Solvay2" to="ŁagiewnikiZUS2"/>
+    <link id="ŁagiewnikiZUS2-Łagiewniki2" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="ŁagiewnikiZUS2" to="Łagiewniki2"/>
+    <link id="Łagiewniki2-Rzemieślnicza2" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="Łagiewniki2" to="Rzemieślnicza2"/>
+    <link id="Rzemieślnicza2-RondoMatecznego2" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="Rzemieślnicza2" to="RondoMatecznego2"/>
+    <link id="RondoMatecznego2-Smolki2" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="RondoMatecznego2" to="Smolki2"/>
+    <link id="Smolki2-Korona1" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="Smolki2" to="Korona1"/>
+
+    <link id="Korona2-Smolki1" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="Korona2" to="Smolki1"/>
+
+    <!-- Korona3 -> Smolki1 -> RondoMatecznego1 -> Rzemieślnicza1 -> Łagiewniki1 -> ŁagiewnikiZUS1 -> Solvay1 -> BorekFałęckiI1 -> BorekFałęcki1 -->
+    <link id="Korona3-Smolki1" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="Korona3" to="Smolki1"/>
+    <link id="Smolki1-RondoMatecznego1" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="Smolki1" to="RondoMatecznego1"/>
+    <link id="RondoMatecznego1-Rzemieślnicza1" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="RondoMatecznego1" to="Rzemieślnicza1"/>
+    <link id="Rzemieślnicza1-Łagiewniki1" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="Rzemieślnicza1" to="Łagiewniki1"/>
+    <link id="Łagiewniki1-ŁagiewnikiZUS1" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="Łagiewniki1" to="ŁagiewnikiZUS1"/>
+    <link id="ŁagiewnikiZUS1-Solvay1" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="ŁagiewnikiZUS1" to="Solvay1"/>
+    <link id="Solvay1-BorekFałęckiI1" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="Solvay1" to="BorekFałęckiI1"/>
+    <link id="BorekFałęckiI1-BorekFałęcki1" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="BorekFałęckiI1" to="BorekFałęcki1"/>
+
+    <!-- Łagiewniki4 -> ŁagiewnikiZUS1 -->
+    <link id="Łagiewniki4-ŁagiewnikiZUS1" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="Łagiewniki4" to="ŁagiewnikiZUS1"/>
+
+    <!-- CzerwoneMakiP+R1 -> Chmieleniec2 -> KampusUJ2 -> Ruczaj2 -> Norymberska2 -> Grota-Roweckiego2 -> Lipińskiego2 -> Borsucza1 -> Brożka(nż)1 -> Łagiewniki4 -> Łagiewniki2 -->
+    <link id="CzerwoneMakiP+R1-Chmieleniec2" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="CzerwoneMakiP+R1" to="Chmieleniec2"/>
+    <link id="Chmieleniec2-KampusUJ2" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="Chmieleniec2" to="KampusUJ2"/>
+    <link id="KampusUJ2-Ruczaj2" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="KampusUJ2" to="Ruczaj2"/>
+    <link id="Ruczaj2-Norymberska2" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="Ruczaj2" to="Norymberska2"/>
+    <link id="Norymberska2-Grota-Roweckiego2" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="Norymberska2" to="Grota-Roweckiego2"/>
+    <link id="Grota-Roweckiego2-Lipińskiego2" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="Grota-Roweckiego2" to="Lipińskiego2"/>
+    <link id="Lipińskiego2-Borsucza1" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="Lipińskiego2" to="Borsucza1"/>
+    <link id="Borsucza1-Brożka(nż)1" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="Borsucza1" to="Brożka(nż)1"/>
+    <link id="Brożka(nż)1-Łagiewniki4" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="Brożka(nż)1" to="Łagiewniki4"/>
+    <link id="Łagiewniki4-Łagiewniki2" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="Łagiewniki4" to="Łagiewniki2"/>
+
+
+    <!-- Łagiewniki1 -> Łagiewniki5 -> Brożka(nż)2 -> Borsucza2 -> Lipińskiego1 -> Grota-Roweckiego1 -> Norymberska1 -> Ruczaj1 -> KampusUJ1 -> Chmieleniec1 -> CzerwoneMakiP+R1 -->
+    <link id="Łagiewniki1-Łagiewniki5" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="Łagiewniki1" to="Łagiewniki5"/>
+    <link id="Łagiewniki5-Brożka(nż)2" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="Łagiewniki5" to="Brożka(nż)2"/>
+    <link id="Brożka(nż)2-Borsucza2" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="Brożka(nż)2" to="Borsucza2"/>
+    <link id="Borsucza2-Lipińskiego1" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="Borsucza2" to="Lipińskiego1"/>
+    <link id="Lipińskiego1-Grota-Roweckiego1" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="Lipińskiego1" to="Grota-Roweckiego1"/>
+    <link id="Grota-Roweckiego1-Norymberska1" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="Grota-Roweckiego1" to="Norymberska1"/>
+    <link id="Norymberska1-Ruczaj1" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="Norymberska1" to="Ruczaj1"/>
+    <link id="Ruczaj1-KampusUJ1" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="Ruczaj1" to="KampusUJ1"/>
+    <link id="KampusUJ1-Chmieleniec1" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="KampusUJ1" to="Chmieleniec1"/>
+    <link id="Chmieleniec1-CzerwoneMakiP+R1" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="Chmieleniec1" to="CzerwoneMakiP+R1"/>
+
+    <!-- Lipińskiego2 -> Kobierzyńska2 -> Słomiana2 -> Kapelanka2 -> Szwedzka2 -> RondoGrunwaldzkie2 -> Orzeszkowej2 -> Stradom1 -->
+    <link id="Lipińskiego2-Kobierzyńska2" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="Lipińskiego2" to="Kobierzyńska2"/>
+    <link id="Kobierzyńska2-Słomiana2" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="Kobierzyńska2" to="Słomiana2"/>
+    <link id="Słomiana2-Kapelanka2" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="Słomiana2" to="Kapelanka2"/>
+    <link id="Kapelanka2-Szwedzka2" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="Kapelanka2" to="Szwedzka2"/>
+    <link id="Szwedzka2-RondoGrunwaldzkie2" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="Szwedzka2" to="RondoGrunwaldzkie2"/>
+    <link id="RondoGrunwaldzkie2-Orzeszkowej2" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="RondoGrunwaldzkie2" to="Orzeszkowej2"/>
+    <link id="Orzeszkowej2-Stradom1" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="Orzeszkowej2" to="Stradom1"/>
+
+    <!-- Stradom3 -> Orzeszkowej1 -> RondoGrunwaldzkie1 -> Szwedzka1 -> Kapelanka1 -> Słomiana1 -> Kobierzyńska1 -> Lipińskiego1 -->
+    <link id="Stradom3-Orzeszkowej1" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="Stradom3" to="Orzeszkowej1"/>
+    <link id="Orzeszkowej1-RondoGrunwaldzkie1" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="Orzeszkowej1" to="RondoGrunwaldzkie1"/>
+    <link id="RondoGrunwaldzkie1-Szwedzka1" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="RondoGrunwaldzkie1" to="Szwedzka1"/>
+    <link id="Szwedzka1-Kapelanka1" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="Szwedzka1" to="Kapelanka1"/>
+    <link id="Kapelanka1-Słomiana1" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="Kapelanka1" to="Słomiana1"/>
+    <link id="Słomiana1-Kobierzyńska1" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="Słomiana1" to="Kobierzyńska1"/>
+    <link id="Kobierzyńska1-Lipińskiego1" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="Kobierzyńska1" to="Lipińskiego1"/>
+
+    <!-- Kobierzyńska1 -> Borsucza1 -->
+    <link id="Kobierzyńska1-Borsucza1" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="Kobierzyńska1" to="Borsucza1"/>
+
+
+  </links>
+</network>
