@@ -29,6 +29,47 @@
             </route>
             <departures>
                 <departure id="gelb1_1" departureTime="05:02:00" vehicleRefId="1"/>
+                <departure id="gelb1_2" departureTime="05:12:00" vehicleRefId="2"/>
+                <departure id="gelb1_3" departureTime="05:22:00" vehicleRefId="1"/>
+                <departure id="gelb1_4" departureTime="05:32:00" vehicleRefId="2"/>
+                <departure id="gelb1_5" departureTime="05:42:00" vehicleRefId="1"/>
+                <departure id="gelb1_6" departureTime="05:52:00" vehicleRefId="2"/>
+                <departure id="gelb1_7" departureTime="06:02:00" vehicleRefId="1"/>
+                <departure id="gelb1_8" departureTime="06:12:00" vehicleRefId="2"/>
+                <departure id="gelb1_9" departureTime="06:22:00" vehicleRefId="1"/>
+                <departure id="gelb1_10" departureTime="06:32:00" vehicleRefId="2"/>
+                <departure id="gelb1_11" departureTime="06:42:00" vehicleRefId="1"/>
+                <departure id="gelb1_12" departureTime="06:52:00" vehicleRefId="2"/>
+                <departure id="gelb1_13" departureTime="07:02:00" vehicleRefId="1"/>
+                <departure id="gelb1_14" departureTime="07:12:00" vehicleRefId="2"/>
+                <departure id="gelb1_15" departureTime="07:22:00" vehicleRefId="1"/>
+                <departure id="gelb1_16" departureTime="07:32:00" vehicleRefId="2"/>
+                <departure id="gelb1_17" departureTime="07:42:00" vehicleRefId="1"/>
+                <departure id="gelb1_18" departureTime="07:52:00" vehicleRefId="2"/>
+                <departure id="gelb1_19" departureTime="08:02:00" vehicleRefId="1"/>
+                <departure id="gelb1_20" departureTime="08:12:00" vehicleRefId="2"/>
+                <departure id="gelb1_21" departureTime="08:22:00" vehicleRefId="1"/>
+                <departure id="gelb1_22" departureTime="08:32:00" vehicleRefId="2"/>
+                <departure id="gelb1_23" departureTime="08:42:00" vehicleRefId="1"/>
+                <departure id="gelb1_24" departureTime="08:52:00" vehicleRefId="2"/>
+                <departure id="gelb1_25" departureTime="09:02:00" vehicleRefId="1"/>
+                <departure id="gelb1_26" departureTime="09:12:00" vehicleRefId="2"/>
+                <departure id="gelb1_27" departureTime="09:22:00" vehicleRefId="1"/>
+                <departure id="gelb1_28" departureTime="09:32:00" vehicleRefId="2"/>
+                <departure id="gelb1_29" departureTime="09:42:00" vehicleRefId="1"/>
+                <departure id="gelb1_30" departureTime="09:52:00" vehicleRefId="2"/>
+                <departure id="gelb1_31" departureTime="10:02:00" vehicleRefId="1"/>
+                <departure id="gelb1_32" departureTime="10:12:00" vehicleRefId="2"/>
+                <departure id="gelb1_33" departureTime="10:22:00" vehicleRefId="1"/>
+                <departure id="gelb1_34" departureTime="10:32:00" vehicleRefId="2"/>
+                <departure id="gelb1_35" departureTime="10:42:00" vehicleRefId="1"/>
+                <departure id="gelb1_36" departureTime="10:52:00" vehicleRefId="2"/>
+                <departure id="gelb1_37" departureTime="11:02:00" vehicleRefId="1"/>
+                <departure id="gelb1_38" departureTime="11:12:00" vehicleRefId="2"/>
+                <departure id="gelb1_39" departureTime="11:22:00" vehicleRefId="1"/>
+                <departure id="gelb1_40" departureTime="11:32:00" vehicleRefId="2"/>
+                <departure id="gelb1_41" departureTime="11:42:00" vehicleRefId="1"/>
+                <departure id="gelb1_42" departureTime="11:52:00" vehicleRefId="2"/>
             </departures>
         </transitRoute>
 
@@ -46,7 +87,48 @@
                 <link refId="2-1"/>
             </route>
             <departures>
-                <departure id="gelb2_1" departureTime="05:21:00" vehicleRefId="2"/>
+                <departure id="gelb1r_1" departureTime="05:02:00" vehicleRefId="2"/>
+                <departure id="gelb1r_2" departureTime="05:12:00" vehicleRefId="1"/>
+                <departure id="gelb1r_3" departureTime="05:22:00" vehicleRefId="2"/>
+                <departure id="gelb1r_4" departureTime="05:32:00" vehicleRefId="1"/>
+                <departure id="gelb1r_5" departureTime="05:42:00" vehicleRefId="2"/>
+                <departure id="gelb1r_6" departureTime="05:52:00" vehicleRefId="1"/>
+                <departure id="gelb1r_7" departureTime="06:02:00" vehicleRefId="2"/>
+                <departure id="gelb1r_8" departureTime="06:12:00" vehicleRefId="1"/>
+                <departure id="gelb1r_9" departureTime="06:22:00" vehicleRefId="2"/>
+                <departure id="gelb1r_10" departureTime="06:32:00" vehicleRefId="1"/>
+                <departure id="gelb1r_11" departureTime="06:42:00" vehicleRefId="2"/>
+                <departure id="gelb1r_12" departureTime="06:52:00" vehicleRefId="1"/>
+                <departure id="gelb1r_13" departureTime="07:02:00" vehicleRefId="2"/>
+                <departure id="gelb1r_14" departureTime="07:12:00" vehicleRefId="1"/>
+                <departure id="gelb1r_15" departureTime="07:22:00" vehicleRefId="2"/>
+                <departure id="gelb1r_16" departureTime="07:32:00" vehicleRefId="1"/>
+                <departure id="gelb1r_17" departureTime="07:42:00" vehicleRefId="2"/>
+                <departure id="gelb1r_18" departureTime="07:52:00" vehicleRefId="1"/>
+                <departure id="gelb1r_19" departureTime="08:02:00" vehicleRefId="2"/>
+                <departure id="gelb1r_20" departureTime="08:12:00" vehicleRefId="1"/>
+                <departure id="gelb1r_21" departureTime="08:22:00" vehicleRefId="2"/>
+                <departure id="gelb1r_22" departureTime="08:32:00" vehicleRefId="1"/>
+                <departure id="gelb1r_23" departureTime="08:42:00" vehicleRefId="2"/>
+                <departure id="gelb1r_24" departureTime="08:52:00" vehicleRefId="1"/>
+                <departure id="gelb1r_25" departureTime="09:02:00" vehicleRefId="2"/>
+                <departure id="gelb1r_26" departureTime="09:12:00" vehicleRefId="1"/>
+                <departure id="gelb1r_27" departureTime="09:22:00" vehicleRefId="2"/>
+                <departure id="gelb1r_28" departureTime="09:32:00" vehicleRefId="1"/>
+                <departure id="gelb1r_29" departureTime="09:42:00" vehicleRefId="2"/>
+                <departure id="gelb1r_30" departureTime="09:52:00" vehicleRefId="1"/>
+                <departure id="gelb1r_31" departureTime="10:02:00" vehicleRefId="2"/>
+                <departure id="gelb1r_32" departureTime="10:12:00" vehicleRefId="1"/>
+                <departure id="gelb1r_33" departureTime="10:22:00" vehicleRefId="2"/>
+                <departure id="gelb1r_34" departureTime="10:32:00" vehicleRefId="1"/>
+                <departure id="gelb1r_35" departureTime="10:42:00" vehicleRefId="2"/>
+                <departure id="gelb1r_36" departureTime="10:52:00" vehicleRefId="1"/>
+                <departure id="gelb1r_37" departureTime="11:02:00" vehicleRefId="2"/>
+                <departure id="gelb1r_38" departureTime="11:12:00" vehicleRefId="1"/>
+                <departure id="gelb1r_39" departureTime="11:22:00" vehicleRefId="2"/>
+                <departure id="gelb1r_40" departureTime="11:32:00" vehicleRefId="1"/>
+                <departure id="gelb1r_41" departureTime="11:42:00" vehicleRefId="2"/>
+                <departure id="gelb1r_42" departureTime="11:52:00" vehicleRefId="1"/>
             </departures>
         </transitRoute>
     </transitLine>

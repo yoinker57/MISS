@@ -6,7 +6,6 @@
     <node x="100.0" y="0.0" id="2" />
     <node x="200.0" y="0.0" id="3" />
     <node x="300.0" y="0.0" id="4" />
-
 </nodes>
 
 <links capperiod="10:00:00">
