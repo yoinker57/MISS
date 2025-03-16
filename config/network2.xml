@@ -158,7 +158,6 @@
     <node id="Elektromontaż(nż)2" x="20.064095" y="50.087727"/>
     <node id="ZajezdniaNowaHuta1" x="20.065554" y="50.083538"/>
     <node id="ZajezdniaNowaHuta2" x="20.0656" y="50.08358"/>
-    <node id="PH1" x="20.064555" y="50.084174"/>
     <node id="Gromadzka1" x="19.978092" y="50.040619"/>
     <node id="Gromadzka2" x="19.978076" y="50.040657"/>
     <node id="Lipska1" x="19.98442" y="50.040641"/>
@@ -191,7 +190,6 @@
     <node id="Borsucza2" x="19.929101" y="50.03055"/>
     <node id="Brożka(nż)1" x="19.931874" y="50.030494"/>
     <node id="Brożka(nż)2" x="19.93173" y="50.03053"/>
-    <node id="PT1" x="19.934092" y="50.031724"/>
     <node id="Dworcowa1" x="19.970294" y="50.033435"/>
     <node id="Dworcowa2" x="19.971078" y="50.032673"/>
     <node id="Kabel1" x="19.976567" y="50.027229"/>
@@ -229,7 +227,6 @@
     <node id="Bieńczycka2" x="20.02058" y="50.0757"/>
     <node id="Łagiewniki1" x="19.936964" y="50.030477"/>
     <node id="Łagiewniki2" x="19.937053" y="50.030486"/>
-    <node id="Łagiewniki3" x="19.935369" y="50.029783"/>
     <node id="Łagiewniki4" x="19.935946" y="50.029498"/>
     <node id="Łagiewniki5" x="19.935452" y="50.029682"/>
     <node id="Klimeckiego1" x="19.967573" y="50.048976"/>
@@ -330,128 +327,429 @@
     <node id="TAURONArenaKrakówal.Pokoju(nż)1" x="19.988978" y="50.064188"/>
     <node id="TAURONArenaKrakówal.Pokoju(nż)2" x="19.990077" y="50.064416"/>
   </nodes>
-  <links capperiod="10:00:00">
-    <!-- TeatrBagatela1 -> Batorego1 -> PlacInwalidów1 -> Urzędnicza1 -> Biprostal1 -> UniwersytetPedagogiczny1 -> Głowackiego1 -> Bronowice3 -> Wesele1 -> BronowiceSKA1 -> BronowiceMałe1 -->
-    <link id="TeatrBagatela1-Batorego1" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="TeatrBagatela1" to="Batorego1"/>
-    <link id="Batorego1-PlacInwalidów1" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="Batorego1" to="PlacInwalidów1"/>
-    <link id="PlacInwalidów1-Urzędnicza1" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="PlacInwalidów1" to="Urzędnicza1"/>
-    <link id="Urzędnicza1-Biprostal1" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="Urzędnicza1" to="Biprostal1"/>
-    <link id="Biprostal1-UniwersytetPedagogiczny1" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="Biprostal1" to="UniwersytetPedagogiczny1"/>
-    <link id="UniwersytetPedagogiczny1-Głowackiego1" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="UniwersytetPedagogiczny1" to="Głowackiego1"/>
-    <link id="Głowackiego1-Bronowice3" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="Głowackiego1" to="Bronowice3"/>
-    <link id="Bronowice3-Wesele1" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="Bronowice3" to="Wesele1"/>
-    <link id="Wesele1-BronowiceSKA1" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="Wesele1" to="BronowiceSKA1"/>
-    <link id="BronowiceSKA1-BronowiceMałe1" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="BronowiceSKA1" to="BronowiceMałe1"/>
+  <links>
+    <link id="NowyBieżanówP+R1-Ćwiklińskiej2" to="Ćwiklińskiej2" freespeed="20.0" capacity="99999.0" permlanes="1" length="224.66600838492508" from="NowyBieżanówP+R1"/>
+    <link id="Ćwiklińskiej2-NowyProkocim2" to="NowyProkocim2" freespeed="20.0" capacity="99999.0" permlanes="1" length="484.79451148210563" from="Ćwiklińskiej2"/>
+    <link id="NowyProkocim2-Teligi2" to="Teligi2" freespeed="20.0" capacity="99999.0" permlanes="1" length="381.1797925046992" from="NowyProkocim2"/>
+    <link id="Teligi2-ProkocimSzpital2" to="ProkocimSzpital2" freespeed="20.0" capacity="99999.0" permlanes="1" length="595.0080245517502" from="Teligi2"/>
+    <link id="ProkocimSzpital2-Prokocim2" to="Prokocim2" freespeed="20.0" capacity="99999.0" permlanes="1" length="741.0122537676652" from="ProkocimSzpital2"/>
+    <link id="Prokocim2-Wlotowa2" to="Wlotowa2" freespeed="20.0" capacity="99999.0" permlanes="1" length="309.0919850412519" from="Prokocim2"/>
+    <link id="Wlotowa2-Bieżanowska2" to="Bieżanowska2" freespeed="20.0" capacity="99999.0" permlanes="1" length="593.4154181184236" from="Wlotowa2"/>
+    <link id="Bieżanowska2-Kabel2" to="Kabel2" freespeed="20.0" capacity="99999.0" permlanes="1" length="503.903895880715" from="Bieżanowska2"/>
+    <link id="Kabel2-Dworcowa2" to="Dworcowa2" freespeed="20.0" capacity="99999.0" permlanes="1" length="804.6834303048911" from="Kabel2"/>
+    <link id="Dworcowa2-CmentarzPodgórski2" to="CmentarzPodgórski2" freespeed="20.0" capacity="99999.0" permlanes="1" length="801.2648455001813" from="Dworcowa2"/>
+    <link id="CmentarzPodgórski2-PodgórzeSKA2" to="PodgórzeSKA2" freespeed="20.0" capacity="99999.0" permlanes="1" length="430.9545739160971" from="CmentarzPodgórski2"/>
+    <link id="PodgórzeSKA2-PlacBohaterówGetta2" to="PlacBohaterówGetta2" freespeed="20.0" capacity="99999.0" permlanes="1" length="706.692064786681" from="PodgórzeSKA2"/>
+    <link id="PlacBohaterówGetta2-św.Wawrzyńca2" to="św.Wawrzyńca2" freespeed="20.0" capacity="99999.0" permlanes="1" length="605.606340567667" from="PlacBohaterówGetta2"/>
+    <link id="św.Wawrzyńca2-Miodowa2" to="Miodowa2" freespeed="20.0" capacity="99999.0" permlanes="1" length="242.79415721920972" from="św.Wawrzyńca2"/>
+    <link id="Miodowa2-Starowiślna1" to="Starowiślna1" freespeed="20.0" capacity="99999.0" permlanes="1" length="552.2859103488597" from="Miodowa2"/>
+    <link id="Starowiślna1-PocztaGłówna2" to="PocztaGłówna2" freespeed="20.0" capacity="99999.0" permlanes="1" length="253.99149209298417" from="Starowiślna1"/>
+    <link id="PocztaGłówna2-TeatrSłowackiego3" to="TeatrSłowackiego3" freespeed="20.0" capacity="99999.0" permlanes="1" length="581.1192932466729" from="PocztaGłówna2"/>
+    <link id="TeatrSłowackiego3-DworzecGłównyZachód2" to="DworzecGłównyZachód2" freespeed="20.0" capacity="99999.0" permlanes="1" length="405.4283790780617" from="TeatrSłowackiego3"/>
+    <link id="DworzecGłównyZachód2-Politechnika1" to="Politechnika1" freespeed="20.0" capacity="99999.0" permlanes="1" length="391.6614246149821" from="DworzecGłównyZachód2"/>
+    <link id="Politechnika1-DworzecTowarowy1" to="DworzecTowarowy1" freespeed="20.0" capacity="99999.0" permlanes="1" length="619.3751788714069" from="Politechnika1"/>
+    <link id="DworzecTowarowy1-SzpitalNarutowicza1" to="SzpitalNarutowicza1" freespeed="20.0" capacity="99999.0" permlanes="1" length="555.4174478550334" from="DworzecTowarowy1"/>
+    <link id="SzpitalNarutowicza1-Bratysławska1" to="Bratysławska1" freespeed="20.0" capacity="99999.0" permlanes="1" length="424.97559215478867" from="SzpitalNarutowicza1"/>
+    <link id="Bratysławska1-KrowodrzaGórka1" to="KrowodrzaGórka1" freespeed="20.0" capacity="99999.0" permlanes="1" length="593.3802589775006" from="Bratysławska1"/>
+    <link id="KrowodrzaGórka1-Bratysławska2" to="Bratysławska2" freespeed="20.0" capacity="99999.0" permlanes="1" length="483.59712577515165" from="KrowodrzaGórka1"/>
+    <link id="Bratysławska2-SzpitalNarutowicza2" to="SzpitalNarutowicza2" freespeed="20.0" capacity="99999.0" permlanes="1" length="539.6518088915634" from="Bratysławska2"/>
+    <link id="SzpitalNarutowicza2-DworzecTowarowy2" to="DworzecTowarowy2" freespeed="20.0" capacity="99999.0" permlanes="1" length="552.4342913771964" from="SzpitalNarutowicza2"/>
+    <link id="DworzecTowarowy2-Politechnika2" to="Politechnika2" freespeed="20.0" capacity="99999.0" permlanes="1" length="664.3076123002394" from="DworzecTowarowy2"/>
+    <link id="Politechnika2-DworzecGłównyZachód1" to="DworzecGłównyZachód1" freespeed="20.0" capacity="99999.0" permlanes="1" length="331.792131133425" from="Politechnika2"/>
+    <link id="DworzecGłównyZachód1-TeatrSłowackiego4" to="TeatrSłowackiego4" freespeed="20.0" capacity="99999.0" permlanes="1" length="314.36143511589756" from="DworzecGłównyZachód1"/>
+    <link id="TeatrSłowackiego4-PocztaGłówna1" to="PocztaGłówna1" freespeed="20.0" capacity="99999.0" permlanes="1" length="612.5454754499099" from="TeatrSłowackiego4"/>
+    <link id="PocztaGłówna1-Starowiślna2" to="Starowiślna2" freespeed="20.0" capacity="99999.0" permlanes="1" length="374.0144026010214" from="PocztaGłówna1"/>
+    <link id="Starowiślna2-Miodowa1" to="Miodowa1" freespeed="20.0" capacity="99999.0" permlanes="1" length="400.3318106643655" from="Starowiślna2"/>
+    <link id="Miodowa1-św.Wawrzyńca1" to="św.Wawrzyńca1" freespeed="20.0" capacity="99999.0" permlanes="1" length="372.4545579927761" from="Miodowa1"/>
+    <link id="św.Wawrzyńca1-PlacBohaterówGetta1" to="PlacBohaterówGetta1" freespeed="20.0" capacity="99999.0" permlanes="1" length="577.9669438239157" from="św.Wawrzyńca1"/>
+    <link id="PlacBohaterówGetta1-PodgórzeSKA1" to="PodgórzeSKA1" freespeed="20.0" capacity="99999.0" permlanes="1" length="617.4420493209078" from="PlacBohaterówGetta1"/>
+    <link id="PodgórzeSKA1-CmentarzPodgórski1" to="CmentarzPodgórski1" freespeed="20.0" capacity="99999.0" permlanes="1" length="471.4359314105271" from="PodgórzeSKA1"/>
+    <link id="CmentarzPodgórski1-Dworcowa1" to="Dworcowa1" freespeed="20.0" capacity="99999.0" permlanes="1" length="742.3605198313165" from="CmentarzPodgórski1"/>
+    <link id="Dworcowa1-Kabel1" to="Kabel1" freespeed="20.0" capacity="99999.0" permlanes="1" length="823.7233875953481" from="Dworcowa1"/>
+    <link id="Kabel1-Bieżanowska1" to="Bieżanowska1" freespeed="20.0" capacity="99999.0" permlanes="1" length="598.818130901951" from="Kabel1"/>
+    <link id="Bieżanowska1-Wlotowa1" to="Wlotowa1" freespeed="20.0" capacity="99999.0" permlanes="1" length="609.3165023373653" from="Bieżanowska1"/>
+    <link id="Wlotowa1-Prokocim1" to="Prokocim1" freespeed="20.0" capacity="99999.0" permlanes="1" length="296.270984632327" from="Wlotowa1"/>
+    <link id="Prokocim1-ProkocimSzpital1" to="ProkocimSzpital1" freespeed="20.0" capacity="99999.0" permlanes="1" length="658.7103062344966" from="Prokocim1"/>
+    <link id="ProkocimSzpital1-Teligi1" to="Teligi1" freespeed="20.0" capacity="99999.0" permlanes="1" length="635.2235975269947" from="ProkocimSzpital1"/>
+    <link id="Teligi1-NowyProkocim1" to="NowyProkocim1" freespeed="20.0" capacity="99999.0" permlanes="1" length="357.84085692185977" from="Teligi1"/>
+    <link id="NowyProkocim1-Ćwiklińskiej1" to="Ćwiklińskiej1" freespeed="20.0" capacity="99999.0" permlanes="1" length="517.459128134428" from="NowyProkocim1"/>
+    <link id="Ćwiklińskiej1-NowyBieżanówP+R1" to="NowyBieżanówP+R1" freespeed="20.0" capacity="99999.0" permlanes="1" length="272.3849511857001" from="Ćwiklińskiej1"/>
+    <link id="PodgórzeSKA2-Limanowskiego2" to="Limanowskiego2" freespeed="20.0" capacity="99999.0" permlanes="1" length="528.7224111807055" from="PodgórzeSKA2"/>
+    <link id="Limanowskiego2-Korona2" to="Korona2" freespeed="20.0" capacity="99999.0" permlanes="1" length="611.8455571518551" from="Limanowskiego2"/>
+    <link id="Korona2-Smolki1" to="Smolki1" freespeed="20.0" capacity="99999.0" permlanes="1" length="423.29292679740104" from="Korona2"/>
+    <link id="Smolki1-RondoMatecznego1" to="RondoMatecznego1" freespeed="20.0" capacity="99999.0" permlanes="1" length="531.4025534284964" from="Smolki1"/>
+    <link id="RondoMatecznego1-Rzemieślnicza1" to="Rzemieślnicza1" freespeed="20.0" capacity="99999.0" permlanes="1" length="398.1854571121261" from="RondoMatecznego1"/>
+    <link id="Rzemieślnicza1-Łagiewniki1" to="Łagiewniki1" freespeed="20.0" capacity="99999.0" permlanes="1" length="373.50693212019513" from="Rzemieślnicza1"/>
+    <link id="Łagiewniki1-Łagiewniki5" to="Łagiewniki5" freespeed="20.0" capacity="99999.0" permlanes="1" length="139.8434653585548" from="Łagiewniki1"/>
+    <link id="Łagiewniki4-Łagiewniki2" to="Łagiewniki2" freespeed="20.0" capacity="99999.0" permlanes="1" length="135.52933857321403" from="Łagiewniki4"/>
+    <link id="Łagiewniki2-Rzemieślnicza2" to="Rzemieślnicza2" freespeed="20.0" capacity="99999.0" permlanes="1" length="290.3052133040235" from="Łagiewniki2"/>
+    <link id="Rzemieślnicza2-RondoMatecznego2" to="RondoMatecznego2" freespeed="20.0" capacity="99999.0" permlanes="1" length="360.0681451055837" from="Rzemieślnicza2"/>
+    <link id="RondoMatecznego2-Smolki2" to="Smolki2" freespeed="20.0" capacity="99999.0" permlanes="1" length="667.368852215262" from="RondoMatecznego2"/>
+    <link id="Smolki2-Korona1" to="Korona1" freespeed="20.0" capacity="99999.0" permlanes="1" length="329.10557625838635" from="Smolki2"/>
+    <link id="Korona1-Limanowskiego1" to="Limanowskiego1" freespeed="20.0" capacity="99999.0" permlanes="1" length="611.5143923746388" from="Korona1"/>
+    <link id="Limanowskiego1-PodgórzeSKA1" to="PodgórzeSKA1" freespeed="20.0" capacity="99999.0" permlanes="1" length="514.8911329707603" from="Limanowskiego1"/>
+    <link id="Politechnika1-DworzecTowarowy2" to="DworzecTowarowy2" freespeed="20.0" capacity="99999.0" permlanes="1" length="613.8575563569742" from="Politechnika1"/>
+    <link id="PocztaGłówna1-św.Gertrudy2" to="św.Gertrudy2" freespeed="20.0" capacity="99999.0" permlanes="1" length="191.65289832069058" from="PocztaGłówna1"/>
+    <link id="św.Gertrudy2-Wawel2" to="Wawel2" freespeed="20.0" capacity="99999.0" permlanes="1" length="466.29333824338863" from="św.Gertrudy2"/>
+    <link id="Wawel2-Stradom2" to="Stradom2" freespeed="20.0" capacity="99999.0" permlanes="1" length="282.93842727969775" from="Wawel2"/>
+    <link id="Stradom2-PlacWolnica1" to="PlacWolnica1" freespeed="20.0" capacity="99999.0" permlanes="1" length="484.1486211413099" from="Stradom2"/>
+    <link id="PlacWolnica1-Korona3" to="Korona3" freespeed="20.0" capacity="99999.0" permlanes="1" length="497.15574654909943" from="PlacWolnica1"/>
+    <link id="Korona3-Smolki1" to="Smolki1" freespeed="20.0" capacity="99999.0" permlanes="1" length="385.1507944530893" from="Korona3"/>
+    <link id="Salwator1-Salwator2" to="Salwator2" freespeed="20.0" capacity="99999.0" permlanes="1" length="92.33188805733556" from="Salwator1"/>
+    <link id="Salwator2-Komorowskiego2" to="Komorowskiego2" freespeed="20.0" capacity="99999.0" permlanes="1" length="497.10012091671956" from="Salwator2"/>
+    <link id="Komorowskiego2-Jubilat2" to="Jubilat2" freespeed="20.0" capacity="99999.0" permlanes="1" length="410.81848563760036" from="Komorowskiego2"/>
+    <link id="Jubilat2-Filharmonia2" to="Filharmonia2" freespeed="20.0" capacity="99999.0" permlanes="1" length="589.7929402070723" from="Jubilat2"/>
+    <link id="Filharmonia2-TeatrBagatela1" to="TeatrBagatela1" freespeed="20.0" capacity="99999.0" permlanes="1" length="493.8421704506598" from="Filharmonia2"/>
+    <link id="TeatrBagatela1-StaryKleparz2" to="StaryKleparz2" freespeed="20.0" capacity="99999.0" permlanes="1" length="548.4707684622446" from="TeatrBagatela1"/>
+    <link id="StaryKleparz2-TeatrSłowackiego2" to="TeatrSłowackiego2" freespeed="20.0" capacity="99999.0" permlanes="1" length="448.3097805642476" from="StaryKleparz2"/>
+    <link id="TeatrSłowackiego2-Lubicz2" to="Lubicz2" freespeed="20.0" capacity="99999.0" permlanes="1" length="479.4735105555154" from="TeatrSłowackiego2"/>
+    <link id="Lubicz2-UniwersytetEkonomiczny1" to="UniwersytetEkonomiczny1" freespeed="20.0" capacity="99999.0" permlanes="1" length="296.45023699783144" from="Lubicz2"/>
+    <link id="UniwersytetEkonomiczny1-Rakowicka(nż)1" to="Rakowicka(nż)1" freespeed="20.0" capacity="99999.0" permlanes="1" length="364.6138434508738" from="UniwersytetEkonomiczny1"/>
+    <link id="Rakowicka(nż)1-CmentarzRakowicki1" to="CmentarzRakowicki1" freespeed="20.0" capacity="99999.0" permlanes="1" length="462.8641644766132" from="Rakowicka(nż)1"/>
+    <link id="CmentarzRakowicki1-CmentarzRakowicki2" to="CmentarzRakowicki2" freespeed="20.0" capacity="99999.0" permlanes="1" length="174.2825562087093" from="CmentarzRakowicki1"/>
+    <link id="CmentarzRakowicki2-Rakowicka(nż)2" to="Rakowicka(nż)2" freespeed="20.0" capacity="99999.0" permlanes="1" length="255.78078878025795" from="CmentarzRakowicki2"/>
+    <link id="Rakowicka(nż)2-UniwersytetEkonomiczny2" to="UniwersytetEkonomiczny2" freespeed="20.0" capacity="99999.0" permlanes="1" length="313.4136105894947" from="Rakowicka(nż)2"/>
+    <link id="UniwersytetEkonomiczny2-Lubicz3" to="Lubicz3" freespeed="20.0" capacity="99999.0" permlanes="1" length="329.8160694368678" from="UniwersytetEkonomiczny2"/>
+    <link id="Lubicz3-TeatrSłowackiego1" to="TeatrSłowackiego1" freespeed="20.0" capacity="99999.0" permlanes="1" length="438.84209381761156" from="Lubicz3"/>
+    <link id="TeatrSłowackiego1-StaryKleparz1" to="StaryKleparz1" freespeed="20.0" capacity="99999.0" permlanes="1" length="463.50544615406307" from="TeatrSłowackiego1"/>
+    <link id="StaryKleparz1-TeatrBagatela2" to="TeatrBagatela2" freespeed="20.0" capacity="99999.0" permlanes="1" length="533.7201122371432" from="StaryKleparz1"/>
+    <link id="TeatrBagatela2-Filharmonia3" to="Filharmonia3" freespeed="20.0" capacity="99999.0" permlanes="1" length="516.0150724611134" from="TeatrBagatela2"/>
+    <link id="Filharmonia3-Jubilat1" to="Jubilat1" freespeed="20.0" capacity="99999.0" permlanes="1" length="542.7349708044824" from="Filharmonia3"/>
+    <link id="Jubilat1-Komorowskiego1" to="Komorowskiego1" freespeed="20.0" capacity="99999.0" permlanes="1" length="507.91241904309805" from="Jubilat1"/>
+    <link id="Komorowskiego1-Salwator3" to="Salwator3" freespeed="20.0" capacity="99999.0" permlanes="1" length="326.4156063933468" from="Komorowskiego1"/>
+    <link id="Salwator3-Salwator1" to="Salwator1" freespeed="20.0" capacity="99999.0" permlanes="1" length="262.8358443713581" from="Salwator3"/>
+    <link id="ZajezdniaNowaHuta1-Kombinat2" to="Kombinat2" freespeed="20.0" capacity="99999.0" permlanes="1" length="412.48039999571085" from="ZajezdniaNowaHuta1"/>
+    <link id="Kombinat2-Struga2" to="Struga2" freespeed="20.0" capacity="99999.0" permlanes="1" length="1426.9720913254216" from="Kombinat2"/>
+    <link id="Struga2-PlacCentralnyim.R.Reagana1" to="PlacCentralnyim.R.Reagana1" freespeed="20.0" capacity="99999.0" permlanes="1" length="918.5099471255945" from="Struga2"/>
+    <link id="PlacCentralnyim.R.Reagana1-Os.Kolorowe2" to="Os.Kolorowe2" freespeed="20.0" capacity="99999.0" permlanes="1" length="514.6566491479622" from="PlacCentralnyim.R.Reagana1"/>
+    <link id="Os.Kolorowe2-RondoCzyżyńskie2" to="RondoCzyżyńskie2" freespeed="20.0" capacity="99999.0" permlanes="1" length="901.8440012955402" from="Os.Kolorowe2"/>
+    <link id="RondoCzyżyńskie2-Czyżyny2" to="Czyżyny2" freespeed="20.0" capacity="99999.0" permlanes="1" length="346.5186312918711" from="RondoCzyżyńskie2"/>
+    <link id="Czyżyny2-Stella-Sawickiego2" to="Stella-Sawickiego2" freespeed="20.0" capacity="99999.0" permlanes="1" length="479.2340969667708" from="Czyżyny2"/>
+    <link id="Stella-Sawickiego2-AWF2" to="AWF2" freespeed="20.0" capacity="99999.0" permlanes="1" length="369.03861933649404" from="Stella-Sawickiego2"/>
+    <link id="AWF2-MuzeumLotnictwa2" to="MuzeumLotnictwa2" freespeed="20.0" capacity="99999.0" permlanes="1" length="660.720898228803" from="AWF2"/>
+    <link id="MuzeumLotnictwa2-TAURONArenaKrakówWieczysta2" to="TAURONArenaKrakówWieczysta2" freespeed="20.0" capacity="99999.0" permlanes="1" length="593.9422923052615" from="MuzeumLotnictwa2"/>
+    <link id="TAURONArenaKrakówWieczysta2-Białucha2" to="Białucha2" freespeed="20.0" capacity="99999.0" permlanes="1" length="563.3667780007997" from="TAURONArenaKrakówWieczysta2"/>
+    <link id="Białucha2-Cystersów2" to="Cystersów2" freespeed="20.0" capacity="99999.0" permlanes="1" length="587.725980056061" from="Białucha2"/>
+    <link id="Cystersów2-RondoMogilskie1" to="RondoMogilskie1" freespeed="20.0" capacity="99999.0" permlanes="1" length="686.0906956887208" from="Cystersów2"/>
+    <link id="RondoMogilskie1-Lubicz1" to="Lubicz1" freespeed="20.0" capacity="99999.0" permlanes="1" length="543.5511821817695" from="RondoMogilskie1"/>
+    <link id="Lubicz1-TeatrSłowackiego1" to="TeatrSłowackiego1" freespeed="20.0" capacity="99999.0" permlanes="1" length="468.0970587234278" from="Lubicz1"/>
+    <link id="Filharmonia2-PlacWszystkichŚwiętych2" to="PlacWszystkichŚwiętych2" freespeed="20.0" capacity="99999.0" permlanes="1" length="325.7667798775651" from="Filharmonia2"/>
+    <link id="PlacWszystkichŚwiętych2-PocztaGłówna3" to="PocztaGłówna3" freespeed="20.0" capacity="99999.0" permlanes="1" length="310.65019068338916" from="PlacWszystkichŚwiętych2"/>
+    <link id="PocztaGłówna3-Starowiślna3" to="Starowiślna3" freespeed="20.0" capacity="99999.0" permlanes="1" length="385.3094509756534" from="PocztaGłówna3"/>
+    <link id="Starowiślna3-HalaTargowa1" to="HalaTargowa1" freespeed="20.0" capacity="99999.0" permlanes="1" length="254.0759981082967" from="Starowiślna3"/>
+    <link id="HalaTargowa1-RondoGrzegórzeckie1" to="RondoGrzegórzeckie1" freespeed="20.0" capacity="99999.0" permlanes="1" length="822.1021486090257" from="HalaTargowa1"/>
+    <link id="RondoGrzegórzeckie1-TeatrVariété1" to="TeatrVariété1" freespeed="20.0" capacity="99999.0" permlanes="1" length="192.8984995063808" from="RondoGrzegórzeckie1"/>
+    <link id="TeatrVariété1-FrancescoNullo1" to="FrancescoNullo1" freespeed="20.0" capacity="99999.0" permlanes="1" length="330.74499200113956" from="TeatrVariété1"/>
+    <link id="FrancescoNullo1-Fabryczna1" to="Fabryczna1" freespeed="20.0" capacity="99999.0" permlanes="1" length="246.7695128186473" from="FrancescoNullo1"/>
+    <link id="Fabryczna1-OfiarDąbia1" to="OfiarDąbia1" freespeed="20.0" capacity="99999.0" permlanes="1" length="453.2158961393843" from="Fabryczna1"/>
+    <link id="OfiarDąbia1-Dąbie1" to="Dąbie1" freespeed="20.0" capacity="99999.0" permlanes="1" length="238.20892296832972" from="OfiarDąbia1"/>
+    <link id="Dąbie1-Plaza1" to="Plaza1" freespeed="20.0" capacity="99999.0" permlanes="1" length="429.2898773092746" from="Dąbie1"/>
+    <link id="Plaza1-TAURONArenaKrakówal.Pokoju(nż)1" to="TAURONArenaKrakówal.Pokoju(nż)1" freespeed="20.0" capacity="99999.0" permlanes="1" length="379.37259443135036" from="Plaza1"/>
+    <link id="TAURONArenaKrakówal.Pokoju(nż)1-M1al.Pokoju1" to="M1al.Pokoju1" freespeed="20.0" capacity="99999.0" permlanes="1" length="630.8663144015351" from="TAURONArenaKrakówal.Pokoju(nż)1"/>
+    <link id="M1al.Pokoju1-Rondo308.Dywizjonu1" to="Rondo308.Dywizjonu1" freespeed="20.0" capacity="99999.0" permlanes="1" length="595.5629303422287" from="M1al.Pokoju1"/>
+    <link id="Rondo308.Dywizjonu1-Centralna1" to="Centralna1" freespeed="20.0" capacity="99999.0" permlanes="1" length="529.2476811567919" from="Rondo308.Dywizjonu1"/>
+    <link id="Centralna1-RondoCzyżyńskie3" to="RondoCzyżyńskie3" freespeed="20.0" capacity="99999.0" permlanes="1" length="695.0189698239681" from="Centralna1"/>
+    <link id="RondoCzyżyńskie3-Bieńczycka2" to="Bieńczycka2" freespeed="20.0" capacity="99999.0" permlanes="1" length="247.93345747128987" from="RondoCzyżyńskie3"/>
+    <link id="Bieńczycka2-RondoKocmyrzowskieim.Ks.Gorzelanego3" to="RondoKocmyrzowskieim.Ks.Gorzelanego3" freespeed="20.0" capacity="99999.0" permlanes="1" length="741.1974766950159" from="Bieńczycka2"/>
+    <link id="RondoKocmyrzowskieim.Ks.Gorzelanego3-TeatrLudowy2" to="TeatrLudowy2" freespeed="20.0" capacity="99999.0" permlanes="1" length="327.90950780846106" from="RondoKocmyrzowskieim.Ks.Gorzelanego3"/>
+    <link id="TeatrLudowy2-Cienista2" to="Cienista2" freespeed="20.0" capacity="99999.0" permlanes="1" length="530.261439789714" from="TeatrLudowy2"/>
+    <link id="Cienista2-Wańkowicza2" to="Wańkowicza2" freespeed="20.0" capacity="99999.0" permlanes="1" length="742.3754142832997" from="Cienista2"/>
+    <link id="Wańkowicza2-Wiadukty1" to="Wiadukty1" freespeed="20.0" capacity="99999.0" permlanes="1" length="676.0162858267778" from="Wańkowicza2"/>
+    <link id="Wiadukty1-Darwina1" to="Darwina1" freespeed="20.0" capacity="99999.0" permlanes="1" length="320.0409323943421" from="Wiadukty1"/>
+    <link id="Darwina1-Jarzębiny1" to="Jarzębiny1" freespeed="20.0" capacity="99999.0" permlanes="1" length="162.98675610065928" from="Darwina1"/>
+    <link id="Jarzębiny1-WzgórzaKrzesławickie1" to="WzgórzaKrzesławickie1" freespeed="20.0" capacity="99999.0" permlanes="1" length="463.6726825819732" from="Jarzębiny1"/>
+    <link id="Jarzębiny2-Darwina2" to="Darwina2" freespeed="20.0" capacity="99999.0" permlanes="1" length="126.47497470586774" from="Jarzębiny2"/>
+    <link id="Darwina2-Wiadukty2" to="Wiadukty2" freespeed="20.0" capacity="99999.0" permlanes="1" length="319.5663339260485" from="Darwina2"/>
+    <link id="Wiadukty2-Elektromontaż(nż)1" to="Elektromontaż(nż)1" freespeed="20.0" capacity="99999.0" permlanes="1" length="568.7353209423779" from="Wiadukty2"/>
+    <link id="BorekFałęcki1-BorekFałęckiI2" to="BorekFałęckiI2" freespeed="20.0" capacity="99999.0" permlanes="1" length="172.60591428601955" from="BorekFałęcki1"/>
+    <link id="BorekFałęckiI2-Solvay2" to="Solvay2" freespeed="20.0" capacity="99999.0" permlanes="1" length="163.11238440651323" from="BorekFałęckiI2"/>
+    <link id="Solvay2-ŁagiewnikiZUS2" to="ŁagiewnikiZUS2" freespeed="20.0" capacity="99999.0" permlanes="1" length="1034.6352162799496" from="Solvay2"/>
+    <link id="ŁagiewnikiZUS2-Łagiewniki2" to="Łagiewniki2" freespeed="20.0" capacity="99999.0" permlanes="1" length="704.4670982611246" from="ŁagiewnikiZUS2"/>
+    <link id="Korona1-PlacWolnica2" to="PlacWolnica2" freespeed="20.0" capacity="99999.0" permlanes="1" length="546.6533398922737" from="Korona1"/>
+    <link id="PlacWolnica2-Stradom4" to="Stradom4" freespeed="20.0" capacity="99999.0" permlanes="1" length="336.96865490460146" from="PlacWolnica2"/>
+    <link id="Stradom4-Wawel1" to="Wawel1" freespeed="20.0" capacity="99999.0" permlanes="1" length="437.04125090198835" from="Stradom4"/>
+    <link id="Wawel1-św.Gertrudy1" to="św.Gertrudy1" freespeed="20.0" capacity="99999.0" permlanes="1" length="450.50436383406554" from="Wawel1"/>
+    <link id="św.Gertrudy1-PlacWszystkichŚwiętych1" to="PlacWszystkichŚwiętych1" freespeed="20.0" capacity="99999.0" permlanes="1" length="201.95836231257823" from="św.Gertrudy1"/>
+    <link id="PlacWszystkichŚwiętych1-Filharmonia1" to="Filharmonia1" freespeed="20.0" capacity="99999.0" permlanes="1" length="313.08644430163633" from="PlacWszystkichŚwiętych1"/>
+    <link id="Filharmonia1-TeatrBagatela1" to="TeatrBagatela1" freespeed="20.0" capacity="99999.0" permlanes="1" length="461.08584668331656" from="Filharmonia1"/>
+    <link id="TeatrBagatela1-Batorego1" to="Batorego1" freespeed="20.0" capacity="99999.0" permlanes="1" length="450.9660345387408" from="TeatrBagatela1"/>
+    <link id="Batorego1-PlacInwalidów1" to="PlacInwalidów1" freespeed="20.0" capacity="99999.0" permlanes="1" length="295.903252387749" from="Batorego1"/>
+    <link id="PlacInwalidów1-Urzędnicza1" to="Urzędnicza1" freespeed="20.0" capacity="99999.0" permlanes="1" length="624.9262254540839" from="PlacInwalidów1"/>
+    <link id="Urzędnicza1-Biprostal1" to="Biprostal1" freespeed="20.0" capacity="99999.0" permlanes="1" length="285.16699787897846" from="Urzędnicza1"/>
+    <link id="Biprostal1-UniwersytetPedagogiczny1" to="UniwersytetPedagogiczny1" freespeed="20.0" capacity="99999.0" permlanes="1" length="403.4301400235248" from="Biprostal1"/>
+    <link id="UniwersytetPedagogiczny1-Głowackiego1" to="Głowackiego1" freespeed="20.0" capacity="99999.0" permlanes="1" length="317.10030409335576" from="UniwersytetPedagogiczny1"/>
+    <link id="Głowackiego1-Bronowice3" to="Bronowice3" freespeed="20.0" capacity="99999.0" permlanes="1" length="522.6242625821639" from="Głowackiego1"/>
+    <link id="Bronowice3-Wesele1" to="Wesele1" freespeed="20.0" capacity="99999.0" permlanes="1" length="226.44239562957262" from="Bronowice3"/>
+    <link id="Wesele1-BronowiceSKA1" to="BronowiceSKA1" freespeed="20.0" capacity="99999.0" permlanes="1" length="645.6282838721081" from="Wesele1"/>
+    <link id="BronowiceSKA1-BronowiceMałe1" to="BronowiceMałe1" freespeed="20.0" capacity="99999.0" permlanes="1" length="559.0417891016205" from="BronowiceSKA1"/>
+    <link id="BronowiceMałe1-BronowiceSKA2" to="BronowiceSKA2" freespeed="20.0" capacity="99999.0" permlanes="1" length="478.5305023993952" from="BronowiceMałe1"/>
+    <link id="BronowiceSKA2-Wesele2" to="Wesele2" freespeed="20.0" capacity="99999.0" permlanes="1" length="633.9304061167164" from="BronowiceSKA2"/>
+    <link id="Wesele2-Bronowice2" to="Bronowice2" freespeed="20.0" capacity="99999.0" permlanes="1" length="329.25047589290926" from="Wesele2"/>
+    <link id="Bronowice2-Głowackiego2" to="Głowackiego2" freespeed="20.0" capacity="99999.0" permlanes="1" length="423.90814528872113" from="Bronowice2"/>
+    <link id="Głowackiego2-UniwersytetPedagogiczny2" to="UniwersytetPedagogiczny2" freespeed="20.0" capacity="99999.0" permlanes="1" length="347.32218228103955" from="Głowackiego2"/>
+    <link id="UniwersytetPedagogiczny2-Biprostal2" to="Biprostal2" freespeed="20.0" capacity="99999.0" permlanes="1" length="384.49043376939244" from="UniwersytetPedagogiczny2"/>
+    <link id="Biprostal2-Urzędnicza2" to="Urzędnicza2" freespeed="20.0" capacity="99999.0" permlanes="1" length="326.3422451854877" from="Biprostal2"/>
+    <link id="Urzędnicza2-PlacInwalidów2" to="PlacInwalidów2" freespeed="20.0" capacity="99999.0" permlanes="1" length="544.1095360947079" from="Urzędnicza2"/>
+    <link id="PlacInwalidów2-Batorego2" to="Batorego2" freespeed="20.0" capacity="99999.0" permlanes="1" length="354.2793202325574" from="PlacInwalidów2"/>
+    <link id="Batorego2-TeatrBagatela3" to="TeatrBagatela3" freespeed="20.0" capacity="99999.0" permlanes="1" length="451.8666543552242" from="Batorego2"/>
+    <link id="TeatrBagatela3-Filharmonia3" to="Filharmonia3" freespeed="20.0" capacity="99999.0" permlanes="1" length="511.31700762588093" from="TeatrBagatela3"/>
+    <link id="Filharmonia3-PlacWszystkichŚwiętych2" to="PlacWszystkichŚwiętych2" freespeed="20.0" capacity="99999.0" permlanes="1" length="314.9231646482486" from="Filharmonia3"/>
+    <link id="PlacWszystkichŚwiętych2-św.Gertrudy2" to="św.Gertrudy2" freespeed="20.0" capacity="99999.0" permlanes="1" length="252.72962198253074" from="PlacWszystkichŚwiętych2"/>
+    <link id="Łagiewniki1-ŁagiewnikiZUS1" to="ŁagiewnikiZUS1" freespeed="20.0" capacity="99999.0" permlanes="1" length="691.5075872781839" from="Łagiewniki1"/>
+    <link id="ŁagiewnikiZUS1-Solvay1" to="Solvay1" freespeed="20.0" capacity="99999.0" permlanes="1" length="929.076147696334" from="ŁagiewnikiZUS1"/>
+    <link id="Solvay1-BorekFałęckiI1" to="BorekFałęckiI1" freespeed="20.0" capacity="99999.0" permlanes="1" length="268.74530892986684" from="Solvay1"/>
+    <link id="BorekFałęckiI1-BorekFałęcki1" to="BorekFałęcki1" freespeed="20.0" capacity="99999.0" permlanes="1" length="177.06978367375146" from="BorekFałęckiI1"/>
+    <link id="ŁagiewnikiZUS2-Łagiewniki5" to="Łagiewniki5" freespeed="20.0" capacity="99999.0" permlanes="1" length="588.8645896791706" from="ŁagiewnikiZUS2"/>
+    <link id="Łagiewniki4-ŁagiewnikiZUS1" to="ŁagiewnikiZUS1" freespeed="20.0" capacity="99999.0" permlanes="1" length="566.248856324844" from="Łagiewniki4"/>
+    <link id="Pleszów1-Koksochemia(nż)2" to="Koksochemia(nż)2" freespeed="20.0" capacity="99999.0" permlanes="1" length="918.4893919906654" from="Pleszów1"/>
+    <link id="Koksochemia(nż)2-Meksyk(nż)2" to="Meksyk(nż)2" freespeed="20.0" capacity="99999.0" permlanes="1" length="680.3248664944939" from="Koksochemia(nż)2"/>
+    <link id="Meksyk(nż)2-Bramanr5(nż)2" to="Bramanr5(nż)2" freespeed="20.0" capacity="99999.0" permlanes="1" length="172.1585866986767" from="Meksyk(nż)2"/>
+    <link id="Bramanr5(nż)2-Giedroycia(nż)2" to="Giedroycia(nż)2" freespeed="20.0" capacity="99999.0" permlanes="1" length="802.6237091246223" from="Bramanr5(nż)2"/>
+    <link id="Giedroycia(nż)2-Bramanr4(nż)2" to="Bramanr4(nż)2" freespeed="20.0" capacity="99999.0" permlanes="1" length="686.035870055796" from="Giedroycia(nż)2"/>
+    <link id="Bramanr4(nż)2-FortMogiła(nż)2" to="FortMogiła(nż)2" freespeed="20.0" capacity="99999.0" permlanes="1" length="338.47289861232207" from="Bramanr4(nż)2"/>
+    <link id="FortMogiła(nż)2-KopiecWandy2" to="KopiecWandy2" freespeed="20.0" capacity="99999.0" permlanes="1" length="472.50180784526526" from="FortMogiła(nż)2"/>
+    <link id="KopiecWandy2-Kombinat3" to="Kombinat3" freespeed="20.0" capacity="99999.0" permlanes="1" length="1000.7923483560442" from="KopiecWandy2"/>
+    <link id="Kombinat3-Struga2" to="Struga2" freespeed="20.0" capacity="99999.0" permlanes="1" length="1392.9384160902353" from="Kombinat3"/>
+    <link id="TeatrSłowackiego1-PocztaGłówna1" to="PocztaGłówna1" freespeed="20.0" capacity="99999.0" permlanes="1" length="582.9005260056305" from="TeatrSłowackiego1"/>
+    <link id="Rzemieślnicza1-Łagiewniki2" to="Łagiewniki2" freespeed="20.0" capacity="99999.0" permlanes="1" length="370.4865383833553" from="Rzemieślnicza1"/>
+    <link id="Wawel1-PocztaGłówna3" to="PocztaGłówna3" freespeed="20.0" capacity="99999.0" permlanes="1" length="561.7129511065483" from="Wawel1"/>
+    <link id="PocztaGłówna3-TeatrSłowackiego3" to="TeatrSłowackiego3" freespeed="20.0" capacity="99999.0" permlanes="1" length="585.5542991201821" from="PocztaGłówna3"/>
+    <link id="TeatrSłowackiego3-Lubicz2" to="Lubicz2" freespeed="20.0" capacity="99999.0" permlanes="1" length="447.2479269733549" from="TeatrSłowackiego3"/>
+    <link id="Lubicz2-RondoMogilskie2" to="RondoMogilskie2" freespeed="20.0" capacity="99999.0" permlanes="1" length="632.9068633417229" from="Lubicz2"/>
+    <link id="RondoMogilskie2-Cystersów1" to="Cystersów1" freespeed="20.0" capacity="99999.0" permlanes="1" length="767.5882958468864" from="RondoMogilskie2"/>
+    <link id="Cystersów1-Białucha1" to="Białucha1" freespeed="20.0" capacity="99999.0" permlanes="1" length="554.6875532581042" from="Cystersów1"/>
+    <link id="Białucha1-TAURONArenaKrakówWieczysta1" to="TAURONArenaKrakówWieczysta1" freespeed="20.0" capacity="99999.0" permlanes="1" length="606.4118263383114" from="Białucha1"/>
+    <link id="TAURONArenaKrakówWieczysta1-MuzeumLotnictwa1" to="MuzeumLotnictwa1" freespeed="20.0" capacity="99999.0" permlanes="1" length="512.5592919323318" from="TAURONArenaKrakówWieczysta1"/>
+    <link id="MuzeumLotnictwa1-AWF1" to="AWF1" freespeed="20.0" capacity="99999.0" permlanes="1" length="598.9515371699688" from="MuzeumLotnictwa1"/>
+    <link id="AWF1-Stella-Sawickiego1" to="Stella-Sawickiego1" freespeed="20.0" capacity="99999.0" permlanes="1" length="426.3636529874964" from="AWF1"/>
+    <link id="Stella-Sawickiego1-Czyżyny1" to="Czyżyny1" freespeed="20.0" capacity="99999.0" permlanes="1" length="481.5115655738376" from="Stella-Sawickiego1"/>
+    <link id="Czyżyny1-RondoCzyżyńskie1" to="RondoCzyżyńskie1" freespeed="20.0" capacity="99999.0" permlanes="1" length="536.7563797768056" from="Czyżyny1"/>
+    <link id="RondoCzyżyńskie1-Os.Kolorowe1" to="Os.Kolorowe1" freespeed="20.0" capacity="99999.0" permlanes="1" length="791.2871764259335" from="RondoCzyżyńskie1"/>
+    <link id="Os.Kolorowe1-PlacCentralnyim.R.Reagana3" to="PlacCentralnyim.R.Reagana3" freespeed="20.0" capacity="99999.0" permlanes="1" length="648.7372936738865" from="Os.Kolorowe1"/>
+    <link id="PlacCentralnyim.R.Reagana3-Struga1" to="Struga1" freespeed="20.0" capacity="99999.0" permlanes="1" length="578.2643193528866" from="PlacCentralnyim.R.Reagana3"/>
+    <link id="Struga1-Kombinat1" to="Kombinat1" freespeed="20.0" capacity="99999.0" permlanes="1" length="1436.0318359817873" from="Struga1"/>
+    <link id="Kombinat1-KopiecWandy1" to="KopiecWandy1" freespeed="20.0" capacity="99999.0" permlanes="1" length="1028.343547650828" from="Kombinat1"/>
+    <link id="KopiecWandy1-FortMogiła(nż)1" to="FortMogiła(nż)1" freespeed="20.0" capacity="99999.0" permlanes="1" length="508.29982139564936" from="KopiecWandy1"/>
+    <link id="FortMogiła(nż)1-Bramanr4(nż)1" to="Bramanr4(nż)1" freespeed="20.0" capacity="99999.0" permlanes="1" length="299.42387890217293" from="FortMogiła(nż)1"/>
+    <link id="Bramanr4(nż)1-Giedroycia(nż)1" to="Giedroycia(nż)1" freespeed="20.0" capacity="99999.0" permlanes="1" length="696.5136220246651" from="Bramanr4(nż)1"/>
+    <link id="Giedroycia(nż)1-Bramanr5(nż)1" to="Bramanr5(nż)1" freespeed="20.0" capacity="99999.0" permlanes="1" length="728.5092272419861" from="Giedroycia(nż)1"/>
+    <link id="Bramanr5(nż)1-Meksyk(nż)1" to="Meksyk(nż)1" freespeed="20.0" capacity="99999.0" permlanes="1" length="237.09473200918688" from="Bramanr5(nż)1"/>
+    <link id="Meksyk(nż)1-Koksochemia(nż)1" to="Koksochemia(nż)1" freespeed="20.0" capacity="99999.0" permlanes="1" length="695.7307485358382" from="Meksyk(nż)1"/>
+    <link id="Koksochemia(nż)1-Pleszów1" to="Pleszów1" freespeed="20.0" capacity="99999.0" permlanes="1" length="925.3924682953475" from="Koksochemia(nż)1"/>
+    <link id="Kombinat3-ZajezdniaNowaHuta2" to="ZajezdniaNowaHuta2" freespeed="20.0" capacity="99999.0" permlanes="1" length="543.5789425823776" from="Kombinat3"/>
+    <link id="Kombinat2-KopiecWandy1" to="KopiecWandy1" freespeed="20.0" capacity="99999.0" permlanes="1" length="1101.0095643112822" from="Kombinat2"/>
+    <link id="Mistrzejowice1-Miśnieńska2" to="Miśnieńska2" freespeed="20.0" capacity="99999.0" permlanes="1" length="283.7252066547313" from="Mistrzejowice1"/>
+    <link id="Miśnieńska2-Os.ZłotegoWieku2" to="Os.ZłotegoWieku2" freespeed="20.0" capacity="99999.0" permlanes="1" length="320.1400823145259" from="Miśnieńska2"/>
+    <link id="Os.ZłotegoWieku2-RondoPiastowskie2" to="RondoPiastowskie2" freespeed="20.0" capacity="99999.0" permlanes="1" length="494.25745503383536" from="Os.ZłotegoWieku2"/>
+    <link id="RondoPiastowskie2-Dunikowskiego2" to="Dunikowskiego2" freespeed="20.0" capacity="99999.0" permlanes="1" length="362.76973672985355" from="RondoPiastowskie2"/>
+    <link id="Dunikowskiego2-RondoHipokratesa2" to="RondoHipokratesa2" freespeed="20.0" capacity="99999.0" permlanes="1" length="498.78227938601646" from="Dunikowskiego2"/>
+    <link id="RondoHipokratesa2-DHWanda2" to="DHWanda2" freespeed="20.0" capacity="99999.0" permlanes="1" length="631.589487783446" from="RondoHipokratesa2"/>
+    <link id="DHWanda2-RondoKocmyrzowskieim.Ks.Gorzelanego2" to="RondoKocmyrzowskieim.Ks.Gorzelanego2" freespeed="20.0" capacity="99999.0" permlanes="1" length="728.3738065270566" from="DHWanda2"/>
+    <link id="RondoKocmyrzowskieim.Ks.Gorzelanego2-Bieńczycka1" to="Bieńczycka1" freespeed="20.0" capacity="99999.0" permlanes="1" length="573.9291749969714" from="RondoKocmyrzowskieim.Ks.Gorzelanego2"/>
+    <link id="Bieńczycka1-RondoCzyżyńskie2" to="RondoCzyżyńskie2" freespeed="20.0" capacity="99999.0" permlanes="1" length="389.72642021382455" from="Bieńczycka1"/>
+    <link id="Cystersów2-RondoMogilskie3" to="RondoMogilskie3" freespeed="20.0" capacity="99999.0" permlanes="1" length="729.1582103110284" from="Cystersów2"/>
+    <link id="RondoMogilskie3-RondoGrzegórzeckie4" to="RondoGrzegórzeckie4" freespeed="20.0" capacity="99999.0" permlanes="1" length="886.9950529535511" from="RondoMogilskie3"/>
+    <link id="RondoGrzegórzeckie4-Zabłocie1" to="Zabłocie1" freespeed="20.0" capacity="99999.0" permlanes="1" length="915.3709154291287" from="RondoGrzegórzeckie4"/>
+    <link id="Zabłocie1-Klimeckiego1" to="Klimeckiego1" freespeed="20.0" capacity="99999.0" permlanes="1" length="191.44547838897742" from="Zabłocie1"/>
+    <link id="Klimeckiego1-Kuklińskiego1" to="Kuklińskiego1" freespeed="20.0" capacity="99999.0" permlanes="1" length="654.1292494879649" from="Klimeckiego1"/>
+    <link id="Kuklińskiego1-Gromadzka1" to="Gromadzka1" freespeed="20.0" capacity="99999.0" permlanes="1" length="543.1830663137887" from="Kuklińskiego1"/>
+    <link id="Gromadzka1-Lipska3" to="Lipska3" freespeed="20.0" capacity="99999.0" permlanes="1" length="366.14188141033543" from="Gromadzka1"/>
+    <link id="Lipska3-DworzecPłaszówEstakada2" to="DworzecPłaszówEstakada2" freespeed="20.0" capacity="99999.0" permlanes="1" length="816.2345593356179" from="Lipska3"/>
+    <link id="DworzecPłaszówEstakada2-Kabel1" to="Kabel1" freespeed="20.0" capacity="99999.0" permlanes="1" length="694.492891690665" from="DworzecPłaszówEstakada2"/>
+    <link id="Kabel2-DworzecPłaszówEstakada1" to="DworzecPłaszówEstakada1" freespeed="20.0" capacity="99999.0" permlanes="1" length="771.3816565145302" from="Kabel2"/>
+    <link id="DworzecPłaszówEstakada1-Lipska2" to="Lipska2" freespeed="20.0" capacity="99999.0" permlanes="1" length="855.756337686618" from="DworzecPłaszówEstakada1"/>
+    <link id="Lipska2-Gromadzka2" to="Gromadzka2" freespeed="20.0" capacity="99999.0" permlanes="1" length="257.9099508624721" from="Lipska2"/>
+    <link id="Gromadzka2-Kuklińskiego2" to="Kuklińskiego2" freespeed="20.0" capacity="99999.0" permlanes="1" length="540.9528263027481" from="Gromadzka2"/>
+    <link id="Kuklińskiego2-Klimeckiego2" to="Klimeckiego2" freespeed="20.0" capacity="99999.0" permlanes="1" length="653.8590726480205" from="Kuklińskiego2"/>
+    <link id="Klimeckiego2-Zabłocie2" to="Zabłocie2" freespeed="20.0" capacity="99999.0" permlanes="1" length="265.12306470376313" from="Klimeckiego2"/>
+    <link id="Zabłocie2-RondoGrzegórzeckie3" to="RondoGrzegórzeckie3" freespeed="20.0" capacity="99999.0" permlanes="1" length="1007.6818141463762" from="Zabłocie2"/>
+    <link id="RondoGrzegórzeckie3-RondoMogilskie2" to="RondoMogilskie2" freespeed="20.0" capacity="99999.0" permlanes="1" length="816.8587424532027" from="RondoGrzegórzeckie3"/>
+    <link id="Czyżyny1-RondoCzyżyńskie3" to="RondoCzyżyńskie3" freespeed="20.0" capacity="99999.0" permlanes="1" length="470.7870057855665" from="Czyżyny1"/>
+    <link id="Bieńczycka2-RondoKocmyrzowskieim.Ks.Gorzelanego1" to="RondoKocmyrzowskieim.Ks.Gorzelanego1" freespeed="20.0" capacity="99999.0" permlanes="1" length="663.4834504078332" from="Bieńczycka2"/>
+    <link id="RondoKocmyrzowskieim.Ks.Gorzelanego1-DHWanda1" to="DHWanda1" freespeed="20.0" capacity="99999.0" permlanes="1" length="630.9105112370271" from="RondoKocmyrzowskieim.Ks.Gorzelanego1"/>
+    <link id="DHWanda1-RondoHipokratesa1" to="RondoHipokratesa1" freespeed="20.0" capacity="99999.0" permlanes="1" length="619.2795496571719" from="DHWanda1"/>
+    <link id="RondoHipokratesa1-Dunikowskiego1" to="Dunikowskiego1" freespeed="20.0" capacity="99999.0" permlanes="1" length="453.36305541447484" from="RondoHipokratesa1"/>
+    <link id="Dunikowskiego1-RondoPiastowskie1" to="RondoPiastowskie1" freespeed="20.0" capacity="99999.0" permlanes="1" length="420.8618049419805" from="Dunikowskiego1"/>
+    <link id="RondoPiastowskie1-Os.ZłotegoWieku1" to="Os.ZłotegoWieku1" freespeed="20.0" capacity="99999.0" permlanes="1" length="497.7238025688264" from="RondoPiastowskie1"/>
+    <link id="Os.ZłotegoWieku1-Miśnieńska1" to="Miśnieńska1" freespeed="20.0" capacity="99999.0" permlanes="1" length="320.85970571460086" from="Os.ZłotegoWieku1"/>
+    <link id="Miśnieńska1-Mistrzejowice1" to="Mistrzejowice1" freespeed="20.0" capacity="99999.0" permlanes="1" length="270.8349330034948" from="Miśnieńska1"/>
+    <link id="DHWanda2-RondoKocmyrzowskieim.Ks.Gorzelanego4" to="RondoKocmyrzowskieim.Ks.Gorzelanego4" freespeed="20.0" capacity="99999.0" permlanes="1" length="797.4385634432952" from="DHWanda2"/>
+    <link id="RondoKocmyrzowskieim.Ks.Gorzelanego4-Os.Zgody1" to="Os.Zgody1" freespeed="20.0" capacity="99999.0" permlanes="1" length="309.78156519926046" from="RondoKocmyrzowskieim.Ks.Gorzelanego4"/>
+    <link id="Os.Zgody1-PlacCentralnyim.R.Reagana3" to="PlacCentralnyim.R.Reagana3" freespeed="20.0" capacity="99999.0" permlanes="1" length="751.1199180579539" from="Os.Zgody1"/>
+    <link id="Kombinat1-ZajezdniaNowaHuta2" to="ZajezdniaNowaHuta2" freespeed="20.0" capacity="99999.0" permlanes="1" length="495.93414731082646" from="Kombinat1"/>
+    <link id="Elektromontaż(nż)2-Wańkowicza1" to="Wańkowicza1" freespeed="20.0" capacity="99999.0" permlanes="1" length="1186.2690361568364" from="Elektromontaż(nż)2"/>
+    <link id="Wańkowicza1-Cienista1" to="Cienista1" freespeed="20.0" capacity="99999.0" permlanes="1" length="670.6490910082929" from="Wańkowicza1"/>
+    <link id="Cienista1-TeatrLudowy1" to="TeatrLudowy1" freespeed="20.0" capacity="99999.0" permlanes="1" length="542.154850795728" from="Cienista1"/>
+    <link id="TeatrLudowy1-RondoKocmyrzowskieim.Ks.Gorzelanego1" to="RondoKocmyrzowskieim.Ks.Gorzelanego1" freespeed="20.0" capacity="99999.0" permlanes="1" length="493.3660868621456" from="TeatrLudowy1"/>
+    <link id="CzerwoneMakiP+R1-Chmieleniec2" to="Chmieleniec2" freespeed="20.0" capacity="99999.0" permlanes="1" length="720.2455417275403" from="CzerwoneMakiP+R1"/>
+    <link id="Chmieleniec2-KampusUJ2" to="KampusUJ2" freespeed="20.0" capacity="99999.0" permlanes="1" length="511.24356533074575" from="Chmieleniec2"/>
+    <link id="KampusUJ2-Ruczaj2" to="Ruczaj2" freespeed="20.0" capacity="99999.0" permlanes="1" length="414.17333943959915" from="KampusUJ2"/>
+    <link id="Ruczaj2-Norymberska2" to="Norymberska2" freespeed="20.0" capacity="99999.0" permlanes="1" length="593.0622540860275" from="Ruczaj2"/>
+    <link id="Norymberska2-Grota-Roweckiego2" to="Grota-Roweckiego2" freespeed="20.0" capacity="99999.0" permlanes="1" length="598.0175906769883" from="Norymberska2"/>
+    <link id="Grota-Roweckiego2-Lipińskiego2" to="Lipińskiego2" freespeed="20.0" capacity="99999.0" permlanes="1" length="282.45415715500917" from="Grota-Roweckiego2"/>
+    <link id="Lipińskiego2-Kobierzyńska2" to="Kobierzyńska2" freespeed="20.0" capacity="99999.0" permlanes="1" length="436.1293810888292" from="Lipińskiego2"/>
+    <link id="Kobierzyńska2-Słomiana2" to="Słomiana2" freespeed="20.0" capacity="99999.0" permlanes="1" length="700.8078008422194" from="Kobierzyńska2"/>
+    <link id="Słomiana2-Kapelanka2" to="Kapelanka2" freespeed="20.0" capacity="99999.0" permlanes="1" length="502.6771997477375" from="Słomiana2"/>
+    <link id="Kapelanka2-Szwedzka2" to="Szwedzka2" freespeed="20.0" capacity="99999.0" permlanes="1" length="310.0942314799617" from="Kapelanka2"/>
+    <link id="Szwedzka2-RondoGrunwaldzkie2" to="RondoGrunwaldzkie2" freespeed="20.0" capacity="99999.0" permlanes="1" length="455.8885411619401" from="Szwedzka2"/>
+    <link id="RondoGrunwaldzkie2-Orzeszkowej2" to="Orzeszkowej2" freespeed="20.0" capacity="99999.0" permlanes="1" length="552.185806672924" from="RondoGrunwaldzkie2"/>
+    <link id="Orzeszkowej2-Stradom1" to="Stradom1" freespeed="20.0" capacity="99999.0" permlanes="1" length="248.9165301338518" from="Orzeszkowej2"/>
+    <link id="Stradom1-Wawel1" to="Wawel1" freespeed="20.0" capacity="99999.0" permlanes="1" length="350.2457384344966" from="Stradom1"/>
+    <link id="StaryKleparz2-Pędzichów1" to="Pędzichów1" freespeed="20.0" capacity="99999.0" permlanes="1" length="390.0565322548327" from="StaryKleparz2"/>
+    <link id="Pędzichów1-NowyKleparz1" to="NowyKleparz1" freespeed="20.0" capacity="99999.0" permlanes="1" length="428.94249310037196" from="Pędzichów1"/>
+    <link id="NowyKleparz1-DworzecTowarowy1" to="DworzecTowarowy1" freespeed="20.0" capacity="99999.0" permlanes="1" length="381.9967003443023" from="NowyKleparz1"/>
+    <link id="SzpitalNarutowicza2-DworzecTowarowy3" to="DworzecTowarowy3" freespeed="20.0" capacity="99999.0" permlanes="1" length="642.3725423098699" from="SzpitalNarutowicza2"/>
+    <link id="DworzecTowarowy3-NowyKleparz2" to="NowyKleparz2" freespeed="20.0" capacity="99999.0" permlanes="1" length="284.107360267751" from="DworzecTowarowy3"/>
+    <link id="NowyKleparz2-Pędzichów2" to="Pędzichów2" freespeed="20.0" capacity="99999.0" permlanes="1" length="436.0621207617805" from="NowyKleparz2"/>
+    <link id="Pędzichów2-StaryKleparz3" to="StaryKleparz3" freespeed="20.0" capacity="99999.0" permlanes="1" length="348.00099568839937" from="Pędzichów2"/>
+    <link id="StaryKleparz3-TeatrBagatela2" to="TeatrBagatela2" freespeed="20.0" capacity="99999.0" permlanes="1" length="510.51061246334496" from="StaryKleparz3"/>
+    <link id="Stradom2-Orzeszkowej1" to="Orzeszkowej1" freespeed="20.0" capacity="99999.0" permlanes="1" length="242.52501744929125" from="Stradom2"/>
+    <link id="Orzeszkowej1-RondoGrunwaldzkie1" to="RondoGrunwaldzkie1" freespeed="20.0" capacity="99999.0" permlanes="1" length="600.93884910505" from="Orzeszkowej1"/>
+    <link id="RondoGrunwaldzkie1-Szwedzka1" to="Szwedzka1" freespeed="20.0" capacity="99999.0" permlanes="1" length="451.7490230364266" from="RondoGrunwaldzkie1"/>
+    <link id="Szwedzka1-Kapelanka1" to="Kapelanka1" freespeed="20.0" capacity="99999.0" permlanes="1" length="307.08432353842056" from="Szwedzka1"/>
+    <link id="Kapelanka1-Słomiana1" to="Słomiana1" freespeed="20.0" capacity="99999.0" permlanes="1" length="416.78889267823394" from="Kapelanka1"/>
+    <link id="Słomiana1-Kobierzyńska1" to="Kobierzyńska1" freespeed="20.0" capacity="99999.0" permlanes="1" length="785.6321057971624" from="Słomiana1"/>
+    <link id="Kobierzyńska1-Lipińskiego1" to="Lipińskiego1" freespeed="20.0" capacity="99999.0" permlanes="1" length="413.7220898014661" from="Kobierzyńska1"/>
+    <link id="Lipińskiego1-Grota-Roweckiego1" to="Grota-Roweckiego1" freespeed="20.0" capacity="99999.0" permlanes="1" length="350.0670348328038" from="Lipińskiego1"/>
+    <link id="Grota-Roweckiego1-Norymberska1" to="Norymberska1" freespeed="20.0" capacity="99999.0" permlanes="1" length="616.3524174254967" from="Grota-Roweckiego1"/>
+    <link id="Norymberska1-Ruczaj1" to="Ruczaj1" freespeed="20.0" capacity="99999.0" permlanes="1" length="597.6243323244238" from="Norymberska1"/>
+    <link id="Ruczaj1-KampusUJ1" to="KampusUJ1" freespeed="20.0" capacity="99999.0" permlanes="1" length="416.3333571574869" from="Ruczaj1"/>
+    <link id="KampusUJ1-Chmieleniec1" to="Chmieleniec1" freespeed="20.0" capacity="99999.0" permlanes="1" length="497.70874926994463" from="KampusUJ1"/>
+    <link id="Chmieleniec1-CzerwoneMakiP+R1" to="CzerwoneMakiP+R1" freespeed="20.0" capacity="99999.0" permlanes="1" length="659.1577227842553" from="Chmieleniec1"/>
+    <link id="Lipińskiego2-Borsucza1" to="Borsucza1" freespeed="20.0" capacity="99999.0" permlanes="1" length="263.81343743664524" from="Lipińskiego2"/>
+    <link id="Borsucza1-Brożka(nż)1" to="Brożka(nż)1" freespeed="20.0" capacity="99999.0" permlanes="1" length="239.02828007888868" from="Borsucza1"/>
+    <link id="Brożka(nż)1-Łagiewniki4" to="Łagiewniki4" freespeed="20.0" capacity="99999.0" permlanes="1" length="312.088370181824" from="Brożka(nż)1"/>
+    <link id="Brożka(nż)2-Borsucza2" to="Borsucza2" freespeed="20.0" capacity="99999.0" permlanes="1" length="188.38184340487817" from="Brożka(nż)2"/>
+    <link id="Borsucza2-Lipińskiego1" to="Lipińskiego1" freespeed="20.0" capacity="99999.0" permlanes="1" length="309.05505788882067" from="Borsucza2"/>
+    <link id="Korona2-PlacWolnica2" to="PlacWolnica2" freespeed="20.0" capacity="99999.0" permlanes="1" length="531.6661136539681" from="Korona2"/>
+    <link id="Głowackiego1-Bronowice1" to="Bronowice1" freespeed="20.0" capacity="99999.0" permlanes="1" length="403.6735633331962" from="Głowackiego1"/>
+    <link id="Bronowice1-Głowackiego2" to="Głowackiego2" freespeed="20.0" capacity="99999.0" permlanes="1" length="315.40788414269434" from="Bronowice1"/>
+    <link id="Korona3-Limanowskiego1" to="Limanowskiego1" freespeed="20.0" capacity="99999.0" permlanes="1" length="593.1911358860137" from="Korona3"/>
+    <link id="Kobierzyńska1-Borsucza1" to="Borsucza1" freespeed="20.0" capacity="99999.0" permlanes="1" length="475.9805594810068" from="Kobierzyńska1"/>
+    <link id="Borsucza2-Kobierzyńska2" to="Kobierzyńska2" freespeed="20.0" capacity="99999.0" permlanes="1" length="502.0373329149578" from="Borsucza2"/>
+    <link id="Bieńczycka1-RondoCzyżyńskie4" to="RondoCzyżyńskie4" freespeed="20.0" capacity="99999.0" permlanes="1" length="403.15364246304597" from="Bieńczycka1"/>
+    <link id="RondoCzyżyńskie4-Centralna2" to="Centralna2" freespeed="20.0" capacity="99999.0" permlanes="1" length="483.75106185871914" from="RondoCzyżyńskie4"/>
+    <link id="Centralna2-Rondo308.Dywizjonu2" to="Rondo308.Dywizjonu2" freespeed="20.0" capacity="99999.0" permlanes="1" length="573.3187720801936" from="Centralna2"/>
+    <link id="Rondo308.Dywizjonu2-M1al.Pokoju2" to="M1al.Pokoju2" freespeed="20.0" capacity="99999.0" permlanes="1" length="681.4083149966194" from="Rondo308.Dywizjonu2"/>
+    <link id="M1al.Pokoju2-TAURONArenaKrakówal.Pokoju(nż)2" to="TAURONArenaKrakówal.Pokoju(nż)2" freespeed="20.0" capacity="99999.0" permlanes="1" length="463.30416467215406" from="M1al.Pokoju2"/>
+    <link id="TAURONArenaKrakówal.Pokoju(nż)2-Plaza2" to="Plaza2" freespeed="20.0" capacity="99999.0" permlanes="1" length="465.3127084977708" from="TAURONArenaKrakówal.Pokoju(nż)2"/>
+    <link id="Plaza2-Dąbie2" to="Dąbie2" freespeed="20.0" capacity="99999.0" permlanes="1" length="429.6703196039102" from="Plaza2"/>
+    <link id="Dąbie2-OfiarDąbia2" to="OfiarDąbia2" freespeed="20.0" capacity="99999.0" permlanes="1" length="238.4897414451775" from="Dąbie2"/>
+    <link id="OfiarDąbia2-Fabryczna2" to="Fabryczna2" freespeed="20.0" capacity="99999.0" permlanes="1" length="364.5858776856432" from="OfiarDąbia2"/>
+    <link id="Fabryczna2-FrancescoNullo2" to="FrancescoNullo2" freespeed="20.0" capacity="99999.0" permlanes="1" length="278.68308573381495" from="Fabryczna2"/>
+    <link id="FrancescoNullo2-TeatrVariété2" to="TeatrVariété2" freespeed="20.0" capacity="99999.0" permlanes="1" length="388.6068206788611" from="FrancescoNullo2"/>
+    <link id="TeatrVariété2-RondoGrzegórzeckie3" to="RondoGrzegórzeckie3" freespeed="20.0" capacity="99999.0" permlanes="1" length="228.52968921962957" from="TeatrVariété2"/>
+    <link id="RondoGrzegórzeckie3-RondoMogilskie4" to="RondoMogilskie4" freespeed="20.0" capacity="99999.0" permlanes="1" length="728.269415169635" from="RondoGrzegórzeckie3"/>
+    <link id="RondoMogilskie4-Lubicz1" to="Lubicz1" freespeed="20.0" capacity="99999.0" permlanes="1" length="519.8471677715133" from="RondoMogilskie4"/>
+    <link id="TeatrBagatela2-Batorego1" to="Batorego1" freespeed="20.0" capacity="99999.0" permlanes="1" length="418.2760919521474" from="TeatrBagatela2"/>
+    <link id="TeatrBagatela3-StaryKleparz2" to="StaryKleparz2" freespeed="20.0" capacity="99999.0" permlanes="1" length="509.02881651759213" from="TeatrBagatela3"/>
+    <link id="Lubicz2-RondoMogilskie3" to="RondoMogilskie3" freespeed="20.0" capacity="99999.0" permlanes="1" length="588.1017969743987" from="Lubicz2"/>
+    <link id="RondoMogilskie3-RondoGrzegórzeckie1" to="RondoGrzegórzeckie1" freespeed="20.0" capacity="99999.0" permlanes="1" length="779.3039163794458" from="RondoMogilskie3"/>
+    <link id="DworzecTowarowy2-Politechnika4" to="Politechnika4" freespeed="20.0" capacity="99999.0" permlanes="1" length="638.9087014880631" from="DworzecTowarowy2"/>
+    <link id="Politechnika4-DworzecGłównyTunel1" to="DworzecGłównyTunel1" freespeed="20.0" capacity="99999.0" permlanes="1" length="369.48685417324094" from="Politechnika4"/>
+    <link id="DworzecGłównyTunel1-RondoMogilskie3" to="RondoMogilskie3" freespeed="20.0" capacity="99999.0" permlanes="1" length="913.0871969159631" from="DworzecGłównyTunel1"/>
+    <link id="RondoMogilskie3-RondoGrzegórzeckie2" to="RondoGrzegórzeckie2" freespeed="20.0" capacity="99999.0" permlanes="1" length="820.3508985956568" from="RondoMogilskie3"/>
+    <link id="RondoGrzegórzeckie2-HalaTargowa2" to="HalaTargowa2" freespeed="20.0" capacity="99999.0" permlanes="1" length="638.9281931607122" from="RondoGrzegórzeckie2"/>
+    <link id="HalaTargowa2-Starowiślna4" to="Starowiślna4" freespeed="20.0" capacity="99999.0" permlanes="1" length="266.29509841565135" from="HalaTargowa2"/>
+    <link id="Starowiślna4-Miodowa1" to="Miodowa1" freespeed="20.0" capacity="99999.0" permlanes="1" length="403.8717113407851" from="Starowiślna4"/>
+    <link id="PlacBohaterówGetta1-Korona2" to="Korona2" freespeed="20.0" capacity="99999.0" permlanes="1" length="609.6120239211433" from="PlacBohaterówGetta1"/>
+    <link id="Łagiewniki5-Brożka(nż)2" to="Brożka(nż)2" freespeed="20.0" capacity="99999.0" permlanes="1" length="282.87386651205986" from="Łagiewniki5"/>
+    <link id="Korona1-PlacBohaterówGetta2" to="PlacBohaterówGetta2" freespeed="20.0" capacity="99999.0" permlanes="1" length="695.2005157466028" from="Korona1"/>
+    <link id="Miodowa2-Starowiślna3" to="Starowiślna3" freespeed="20.0" capacity="99999.0" permlanes="1" length="490.15409077251786" from="Miodowa2"/>
+    <link id="HalaTargowa1-RondoGrzegórzeckie3" to="RondoGrzegórzeckie3" freespeed="20.0" capacity="99999.0" permlanes="1" length="742.8881885202071" from="HalaTargowa1"/>
+    <link id="RondoGrzegórzeckie3-RondoMogilskie5" to="RondoMogilskie5" freespeed="20.0" capacity="99999.0" permlanes="1" length="843.5089844071821" from="RondoGrzegórzeckie3"/>
+    <link id="RondoMogilskie5-DworzecGłównyTunel2" to="DworzecGłównyTunel2" freespeed="20.0" capacity="99999.0" permlanes="1" length="832.093188638162" from="RondoMogilskie5"/>
+    <link id="DworzecGłównyTunel2-Politechnika3" to="Politechnika3" freespeed="20.0" capacity="99999.0" permlanes="1" length="369.8691488622029" from="DworzecGłównyTunel2"/>
+    <link id="Politechnika3-DworzecTowarowy2" to="DworzecTowarowy2" freespeed="20.0" capacity="99999.0" permlanes="1" length="632.8389428971605" from="Politechnika3"/>
+    <link id="DworzecGłównyTunel1-RondoMogilskie2" to="RondoMogilskie2" freespeed="20.0" capacity="99999.0" permlanes="1" length="915.691195367547" from="DworzecGłównyTunel1"/>
+    <link id="TeatrLudowy1-RondoKocmyrzowskieim.Ks.Gorzelanego2" to="RondoKocmyrzowskieim.Ks.Gorzelanego2" freespeed="20.0" capacity="99999.0" permlanes="1" length="571.0816893547467" from="TeatrLudowy1"/>
+    <link id="Cystersów2-RondoMogilskie5" to="RondoMogilskie5" freespeed="20.0" capacity="99999.0" permlanes="1" length="748.9380817584556" from="Cystersów2"/>
+    <link id="Stradom1-Starowiślna1" to="Starowiślna1" freespeed="20.0" capacity="99999.0" permlanes="1" length="680.69670286771" from="Stradom1"/>
+    <link id="KurdwanówP+R1-Witosa2" to="Witosa2" freespeed="20.0" capacity="99999.0" permlanes="1" length="405.8959652590539" from="KurdwanówP+R1"/>
+    <link id="Witosa2-Nowosądecka2" to="Nowosądecka2" freespeed="20.0" capacity="99999.0" permlanes="1" length="647.3719828093476" from="Witosa2"/>
+    <link id="Nowosądecka2-PiaskiNowe2" to="PiaskiNowe2" freespeed="20.0" capacity="99999.0" permlanes="1" length="544.0460196011998" from="Nowosądecka2"/>
+    <link id="PiaskiNowe2-Dauna2" to="Dauna2" freespeed="20.0" capacity="99999.0" permlanes="1" length="540.5760272616507" from="PiaskiNowe2"/>
+    <link id="Dauna2-Bieżanowska4" to="Bieżanowska4" freespeed="20.0" capacity="99999.0" permlanes="1" length="593.4380943171332" from="Dauna2"/>
+    <link id="Bieżanowska4-Kabel2" to="Kabel2" freespeed="20.0" capacity="99999.0" permlanes="1" length="370.2616898498355" from="Bieżanowska4"/>
+    <link id="TeatrSłowackiego3-StaryKleparz1" to="StaryKleparz1" freespeed="20.0" capacity="99999.0" permlanes="1" length="445.0063151764554" from="TeatrSłowackiego3"/>
+    <link id="TeatrSłowackiego2-PocztaGłówna1" to="PocztaGłówna1" freespeed="20.0" capacity="99999.0" permlanes="1" length="573.8437598251913" from="TeatrSłowackiego2"/>
+    <link id="Kabel1-Bieżanowska3" to="Bieżanowska3" freespeed="20.0" capacity="99999.0" permlanes="1" length="451.2254651835213" from="Kabel1"/>
+    <link id="Bieżanowska3-Dauna1" to="Dauna1" freespeed="20.0" capacity="99999.0" permlanes="1" length="599.6817952857174" from="Bieżanowska3"/>
+    <link id="Dauna1-PiaskiNowe1" to="PiaskiNowe1" freespeed="20.0" capacity="99999.0" permlanes="1" length="528.0573247109074" from="Dauna1"/>
+    <link id="PiaskiNowe1-Nowosądecka1" to="Nowosądecka1" freespeed="20.0" capacity="99999.0" permlanes="1" length="546.0655716954928" from="PiaskiNowe1"/>
+    <link id="Nowosądecka1-Witosa1" to="Witosa1" freespeed="20.0" capacity="99999.0" permlanes="1" length="571.1768875862251" from="Nowosądecka1"/>
+    <link id="Witosa1-KurdwanówP+R1" to="KurdwanówP+R1" freespeed="20.0" capacity="99999.0" permlanes="1" length="481.77405497954584" from="Witosa1"/>
+    <link id="Zabłocie2-RondoGrzegórzeckie1" to="RondoGrzegórzeckie1" freespeed="20.0" capacity="99999.0" permlanes="1" length="926.3938936005972" from="Zabłocie2"/>
+    <link id="Centralna1-RondoCzyżyńskie1" to="RondoCzyżyńskie1" freespeed="20.0" capacity="99999.0" permlanes="1" length="661.2770668351985" from="Centralna1"/>
+    <link id="Os.Kolorowe2-RondoCzyżyńskie4" to="RondoCzyżyńskie4" freespeed="20.0" capacity="99999.0" permlanes="1" length="820.7381459518762" from="Os.Kolorowe2"/>
+    <link id="TeatrVariété2-RondoGrzegórzeckie4" to="RondoGrzegórzeckie4" freespeed="20.0" capacity="99999.0" permlanes="1" length="326.5941684031656" from="TeatrVariété2"/>
+    <link id="MałyPłaszówP+R1-Rzebika2" to="Rzebika2" freespeed="20.0" capacity="99999.0" permlanes="1" length="763.1591207713951" from="MałyPłaszówP+R1"/>
+    <link id="Rzebika2-Lipska2" to="Lipska2" freespeed="20.0" capacity="99999.0" permlanes="1" length="658.8762251707789" from="Rzebika2"/>
+    <link id="TeatrBagatela2-UniwersytetJagielloński1" to="UniwersytetJagielloński1" freespeed="20.0" capacity="99999.0" permlanes="1" length="440.30996293622945" from="TeatrBagatela2"/>
+    <link id="UniwersytetJagielloński1-MuzeumNarodowe1" to="MuzeumNarodowe1" freespeed="20.0" capacity="99999.0" permlanes="1" length="372.56346185507454" from="UniwersytetJagielloński1"/>
+    <link id="MuzeumNarodowe1-Oleandry1" to="Oleandry1" freespeed="20.0" capacity="99999.0" permlanes="1" length="312.56553327575404" from="MuzeumNarodowe1"/>
+    <link id="Oleandry1-ParkJordana1" to="ParkJordana1" freespeed="20.0" capacity="99999.0" permlanes="1" length="228.15846133379367" from="Oleandry1"/>
+    <link id="ParkJordana1-Reymana1" to="Reymana1" freespeed="20.0" capacity="99999.0" permlanes="1" length="511.2369130508372" from="ParkJordana1"/>
+    <link id="Reymana1-CichyKącik1" to="CichyKącik1" freespeed="20.0" capacity="99999.0" permlanes="1" length="584.3703802604675" from="Reymana1"/>
+    <link id="CichyKącik1-Reymana2" to="Reymana2" freespeed="20.0" capacity="99999.0" permlanes="1" length="554.6433216032364" from="CichyKącik1"/>
+    <link id="Reymana2-ParkJordana2" to="ParkJordana2" freespeed="20.0" capacity="99999.0" permlanes="1" length="522.1593072656487" from="Reymana2"/>
+    <link id="ParkJordana2-Oleandry2" to="Oleandry2" freespeed="20.0" capacity="99999.0" permlanes="1" length="200.00295981649313" from="ParkJordana2"/>
+    <link id="Oleandry2-MuzeumNarodowe2" to="MuzeumNarodowe2" freespeed="20.0" capacity="99999.0" permlanes="1" length="290.4040397519201" from="Oleandry2"/>
+    <link id="MuzeumNarodowe2-UniwersytetJagielloński2" to="UniwersytetJagielloński2" freespeed="20.0" capacity="99999.0" permlanes="1" length="516.432100186497" from="MuzeumNarodowe2"/>
+    <link id="UniwersytetJagielloński2-TeatrBagatela1" to="TeatrBagatela1" freespeed="20.0" capacity="99999.0" permlanes="1" length="315.3231959893681" from="UniwersytetJagielloński2"/>
+    <link id="Gromadzka1-Lipska1" to="Lipska1" freespeed="20.0" capacity="99999.0" permlanes="1" length="453.31486690338085" from="Gromadzka1"/>
+    <link id="Lipska1-Rzebika1" to="Rzebika1" freespeed="20.0" capacity="99999.0" permlanes="1" length="589.7448711414984" from="Lipska1"/>
+    <link id="Rzebika1-MałyPłaszówP+R1" to="MałyPłaszówP+R1" freespeed="20.0" capacity="99999.0" permlanes="1" length="635.4191645561922" from="Rzebika1"/>
+    <link id="Stradom1-Starowiślna3" to="Starowiślna3" freespeed="20.0" capacity="99999.0" permlanes="1" length="716.8940744836639" from="Stradom1"/>
+    <link id="Kombinat1-KopiecWandy2" to="KopiecWandy2" freespeed="20.0" capacity="99999.0" permlanes="1" length="1055.8833766669034" from="Kombinat1"/>
+    <link id="TeatrVariété2-RondoGrzegórzeckie2" to="RondoGrzegórzeckie2" freespeed="20.0" capacity="99999.0" permlanes="1" length="360.0826366209431" from="TeatrVariété2"/>
+    <link id="Starowiślna4-Stradom3" to="Stradom3" freespeed="20.0" capacity="99999.0" permlanes="1" length="634.9713806318393" from="Starowiślna4"/>
+    <link id="Stradom3-Orzeszkowej1" to="Orzeszkowej1" freespeed="20.0" capacity="99999.0" permlanes="1" length="301.157040368102" from="Stradom3"/>
+    <link id="StaryKleparz3-TeatrSłowackiego2" to="TeatrSłowackiego2" freespeed="20.0" capacity="99999.0" permlanes="1" length="442.64894629836334" from="StaryKleparz3"/>
+    <link id="Os.Kolorowe1-PlacCentralnyim.R.Reagana2" to="PlacCentralnyim.R.Reagana2" freespeed="20.0" capacity="99999.0" permlanes="1" length="475.1800250975491" from="Os.Kolorowe1"/>
+    <link id="PlacCentralnyim.R.Reagana2-Os.Zgody2" to="Os.Zgody2" freespeed="20.0" capacity="99999.0" permlanes="1" length="519.1692900759881" from="PlacCentralnyim.R.Reagana2"/>
+    <link id="Os.Zgody2-RondoKocmyrzowskieim.Ks.Gorzelanego1" to="RondoKocmyrzowskieim.Ks.Gorzelanego1" freespeed="20.0" capacity="99999.0" permlanes="1" length="552.2226794415567" from="Os.Zgody2"/>
+    <link id="Os.Zgody1-PlacCentralnyim.R.Reagana1" to="PlacCentralnyim.R.Reagana1" freespeed="20.0" capacity="99999.0" permlanes="1" length="674.0991941967843" from="Os.Zgody1"/>
+    <link id="StaryKleparz1-Pędzichów1" to="Pędzichów1" freespeed="20.0" capacity="99999.0" permlanes="1" length="405.5632580830738" from="StaryKleparz1"/>
+    <link id="NowyKleparz1-DworzecTowarowy3" to="DworzecTowarowy3" freespeed="20.0" capacity="99999.0" permlanes="1" length="275.0570682552832" from="NowyKleparz1"/>
+    <link id="TAURONArenaKrakówWieczysta3-TAURONArenaKrakówWieczysta2" to="TAURONArenaKrakówWieczysta2" freespeed="20.0" capacity="99999.0" permlanes="1" length="198.8980716639575" from="TAURONArenaKrakówWieczysta3"/>
+    <link id="Białucha1-TAURONArenaKrakówWieczysta3" to="TAURONArenaKrakówWieczysta3" freespeed="20.0" capacity="99999.0" permlanes="1" length="699.5297503726705" from="Białucha1"/>
+    <link id="Politechnika3-DworzecTowarowy1" to="DworzecTowarowy1" freespeed="20.0" capacity="99999.0" permlanes="1" length="638.3687411558566" from="Politechnika3"/>
+    <link id="Os.Piastów1-PiastaKołodzieja2" to="PiastaKołodzieja2" freespeed="20.0" capacity="99999.0" permlanes="1" length="390.37749318827053" from="Os.Piastów1"/>
+    <link id="PiastaKołodzieja2-Kleeberga2" to="Kleeberga2" freespeed="20.0" capacity="99999.0" permlanes="1" length="309.1913743154192" from="PiastaKołodzieja2"/>
+    <link id="Kleeberga2-Dunikowskiego2" to="Dunikowskiego2" freespeed="20.0" capacity="99999.0" permlanes="1" length="414.29006074264873" from="Kleeberga2"/>
+    <link id="Starowiślna2-Stradom3" to="Stradom3" freespeed="20.0" capacity="99999.0" permlanes="1" length="568.4466319821156" from="Starowiślna2"/>
+    <link id="Dunikowskiego1-Kleeberga1" to="Kleeberga1" freespeed="20.0" capacity="99999.0" permlanes="1" length="464.9213544375679" from="Dunikowskiego1"/>
+    <link id="Kleeberga1-PiastaKołodzieja1" to="PiastaKołodzieja1" freespeed="20.0" capacity="99999.0" permlanes="1" length="231.2799325026311" from="Kleeberga1"/>
+    <link id="PiastaKołodzieja1-Os.Piastów1" to="Os.Piastów1" freespeed="20.0" capacity="99999.0" permlanes="1" length="462.84030734538914" from="PiastaKołodzieja1"/>
+    <link id="Dworcowa1-DworzecPłaszówEstakada1" to="DworzecPłaszówEstakada1" freespeed="20.0" capacity="99999.0" permlanes="1" length="494.68332176003156" from="Dworcowa1"/>
+    <link id="DworzecPłaszówEstakada1-Lipska1" to="Lipska1" freespeed="20.0" capacity="99999.0" permlanes="1" length="942.8054307419469" from="DworzecPłaszówEstakada1"/>
+    <link id="Rzebika2-Lipska3" to="Lipska3" freespeed="20.0" capacity="99999.0" permlanes="1" length="572.3094293722145" from="Rzebika2"/>
+    <link id="DworzecPłaszówEstakada2-Dworcowa2" to="Dworcowa2" freespeed="20.0" capacity="99999.0" permlanes="1" length="429.6209017025818" from="DworzecPłaszówEstakada2"/>
+    <link id="WzgórzaKrzesławickie1-Jarzębiny2" to="Jarzębiny2" freespeed="20.0" capacity="99999.0" permlanes="1" length="503.5288034344599" from="WzgórzaKrzesławickie1"/>
+    <link id="Elektromontaż(nż)1-ZajezdniaNowaHuta1" to="ZajezdniaNowaHuta1" freespeed="20.0" capacity="99999.0" permlanes="1" length="466.0324211025831" from="Elektromontaż(nż)1"/>
+    <link id="ZajezdniaNowaHuta2-Elektromontaż(nż)2" to="Elektromontaż(nż)2" freespeed="20.0" capacity="99999.0" permlanes="1" length="473.68238143784396" from="ZajezdniaNowaHuta2"/>
+    <link id="Elektromontaż(nż)2-Wiadukty1" to="Wiadukty1" freespeed="20.0" capacity="99999.0" permlanes="1" length="526.5696182895371" from="Elektromontaż(nż)2"/>
+    <link id="Wiadukty2-Wańkowicza1" to="Wańkowicza1" freespeed="20.0" capacity="99999.0" permlanes="1" length="672.914884553936" from="Wiadukty2"/>
+    <link id="Starowiślna4-PocztaGłówna2" to="PocztaGłówna2" freespeed="20.0" capacity="99999.0" permlanes="1" length="328.83461882183474" from="Starowiślna4"/>
+    <link id="PocztaGłówna2-PlacWszystkichŚwiętych1" to="PlacWszystkichŚwiętych1" freespeed="20.0" capacity="99999.0" permlanes="1" length="310.2771700534856" from="PocztaGłówna2"/>
+    <link id="Filharmonia1-Jubilat1" to="Jubilat1" freespeed="20.0" capacity="99999.0" permlanes="1" length="569.683310366542" from="Filharmonia1"/>
+    <link id="Lubicz1-UniwersytetEkonomiczny1" to="UniwersytetEkonomiczny1" freespeed="20.0" capacity="99999.0" permlanes="1" length="269.5631116000063" from="Lubicz1"/>
+    <link id="Lubicz3-RondoMogilskie2" to="RondoMogilskie2" freespeed="20.0" capacity="99999.0" permlanes="1" length="591.2761116073905" from="Lubicz3"/>
+    <link id="Struga2-PlacCentralnyim.R.Reagana2" to="PlacCentralnyim.R.Reagana2" freespeed="20.0" capacity="99999.0" permlanes="1" length="825.6072681569732" from="Struga2"/>
+    <link id="Filharmonia1-UniwersytetJagielloński1" to="UniwersytetJagielloński1" freespeed="20.0" capacity="99999.0" permlanes="1" length="270.66760595498175" from="Filharmonia1"/>
+    <link id="UniwersytetJagielloński2-Filharmonia3" to="Filharmonia3" freespeed="20.0" capacity="99999.0" permlanes="1" length="173.1312923351042" from="UniwersytetJagielloński2"/>
+    <link id="CmentarzRakowicki2-UniwersytetEkonomiczny2" to="UniwersytetEkonomiczny2" freespeed="20.0" capacity="99999.0" permlanes="1" length="569.0175792915368" from="CmentarzRakowicki2"/>
+    <link id="Os.Piastów1-PlacCentralnyim.R.Reagana2" to="PlacCentralnyim.R.Reagana2" freespeed="20.0" capacity="99999.0" permlanes="1" length="475.1800250975491" from="Os.Piastów1"/>
+    <link id="TeatrBagatela1-TeatrBagatela2" to="TeatrBagatela2" freespeed="20.0" capacity="500" permlanes="1" length="50" from="TeatrBagatela1"/>
+    <link id="TeatrBagatela2-TeatrBagatela1" to="TeatrBagatela1" freespeed="20.0" capacity="500" permlanes="1" length="50" from="TeatrBagatela2"/>
 
-    <!-- BronowiceMałe1 -> BronowiceSKA2 -> Wesele2 -> Bronowice2 -> Głowackiego2 -> UniwersytetPedagogiczny2 -> Biprostal2 -> Urzędnicza2 -> PlacInwalidów2 -> Batorego2 -> TeatrBagatela3 -->
-    <link id="BronowiceMałe1-BronowiceSKA2" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="BronowiceMałe1" to="BronowiceSKA2"/>
-    <link id="BronowiceSKA2-Wesele2" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="BronowiceSKA2" to="Wesele2"/>
-    <link id="Wesele2-Bronowice2" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="Wesele2" to="Bronowice2"/>
-    <link id="Bronowice2-Głowackiego2" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="Bronowice2" to="Głowackiego2"/>
-    <link id="Głowackiego2-UniwersytetPedagogiczny2" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="Głowackiego2" to="UniwersytetPedagogiczny2"/>
-    <link id="UniwersytetPedagogiczny2-Biprostal2" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="UniwersytetPedagogiczny2" to="Biprostal2"/>
-    <link id="Biprostal2-Urzędnicza2" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="Biprostal2" to="Urzędnicza2"/>
-    <link id="Urzędnicza2-PlacInwalidów2" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="Urzędnicza2" to="PlacInwalidów2"/>
-    <link id="PlacInwalidów2-Batorego2" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="PlacInwalidów2" to="Batorego2"/>
-    <link id="Batorego2-TeatrBagatela3" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="Batorego2" to="TeatrBagatela3"/>
+    <link id="TeatrBagatela2-TeatrBagatela3" to="TeatrBagatela3" freespeed="20.0" capacity="500" permlanes="1" length="50" from="TeatrBagatela2"/>
+    <link id="TeatrBagatela3-TeatrBagatela2" to="TeatrBagatela2" freespeed="20.0" capacity="500" permlanes="1" length="50" from="TeatrBagatela3"/>
 
-    <!-- UniwersytetJagielloński1 -> MuzeumNarodowe1 -> Oleandry1 -> ParkJordana1 -> Reymana1 -> CichyKącik1 -->
-    <link id="UniwersytetJagielloński1-MuzeumNarodowe1" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="UniwersytetJagielloński1" to="MuzeumNarodowe1"/>
-    <link id="MuzeumNarodowe1-Oleandry1" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="MuzeumNarodowe1" to="Oleandry1"/>
-    <link id="Oleandry1-ParkJordana1" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="Oleandry1" to="ParkJordana1"/>
-    <link id="ParkJordana1-Reymana1" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="ParkJordana1" to="Reymana1"/>
-    <link id="Reymana1-CichyKącik1" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="Reymana1" to="CichyKącik1"/>
-
-
-    <!-- CichyKącik1 -> Reymana2 -> ParkJordana2 -> Oleandry2 -> MuzeumNarodowe2 -> UniwersytetJagielloński2 -->
-    <link id="CichyKącik1-Reymana2" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="CichyKącik1" to="Reymana2"/>
-    <link id="Reymana2-ParkJordana2" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="Reymana2" to="ParkJordana2"/>
-    <link id="ParkJordana2-Oleandry2" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="ParkJordana2" to="Oleandry2"/>
-    <link id="Oleandry2-MuzeumNarodowe2" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="Oleandry2" to="MuzeumNarodowe2"/>
-    <link id="MuzeumNarodowe2-UniwersytetJagielloński2" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="MuzeumNarodowe2" to="UniwersytetJagielloński2"/>
-
-
-    <!-- Filharmonia1 -> Jubilat1 -> Komorowskiego1 -> Salwator3 -->
-    <link id="Filharmonia1-Jubilat1" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="Filharmonia1" to="Jubilat1"/>
-    <link id="Jubilat1-Komorowskiego1" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="Jubilat1" to="Komorowskiego1"/>
-    <link id="Komorowskiego1-Salwator3" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="Komorowskiego1" to="Salwator3"/>
-
-    <!-- Salwator2 -> Komorowskiego2 -> Jubilat2 -> Filharmonia2 -->
-    <link id="Salwator2-Komorowskiego2" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="Salwator2" to="Komorowskiego2"/>
-    <link id="Komorowskiego2-Jubilat2" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="Komorowskiego2" to="Jubilat2"/>
-    <link id="Jubilat2-Filharmonia2" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="Jubilat2" to="Filharmonia2"/>
-
-    <!-- BorekFałęcki1 -> BorekFałęckiI2 -> Solvay2 -> ŁagiewnikiZUS2 -> Łagiewniki2 -> Rzemieślnicza2 -> RondoMatecznego2 -> Smolki2 -> Korona1 -->
-    <link id="BorekFałęcki1-BorekFałęckiI2" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="BorekFałęcki1" to="BorekFałęckiI2"/>
-    <link id="BorekFałęckiI2-Solvay2" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="BorekFałęckiI2" to="Solvay2"/>
-    <link id="Solvay2-ŁagiewnikiZUS2" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="Solvay2" to="ŁagiewnikiZUS2"/>
-    <link id="ŁagiewnikiZUS2-Łagiewniki2" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="ŁagiewnikiZUS2" to="Łagiewniki2"/>
-    <link id="Łagiewniki2-Rzemieślnicza2" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="Łagiewniki2" to="Rzemieślnicza2"/>
-    <link id="Rzemieślnicza2-RondoMatecznego2" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="Rzemieślnicza2" to="RondoMatecznego2"/>
-    <link id="RondoMatecznego2-Smolki2" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="RondoMatecznego2" to="Smolki2"/>
-    <link id="Smolki2-Korona1" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="Smolki2" to="Korona1"/>
-
-    <link id="Korona2-Smolki1" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="Korona2" to="Smolki1"/>
-
-    <!-- Korona3 -> Smolki1 -> RondoMatecznego1 -> Rzemieślnicza1 -> Łagiewniki1 -> ŁagiewnikiZUS1 -> Solvay1 -> BorekFałęckiI1 -> BorekFałęcki1 -->
-    <link id="Korona3-Smolki1" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="Korona3" to="Smolki1"/>
-    <link id="Smolki1-RondoMatecznego1" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="Smolki1" to="RondoMatecznego1"/>
-    <link id="RondoMatecznego1-Rzemieślnicza1" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="RondoMatecznego1" to="Rzemieślnicza1"/>
-    <link id="Rzemieślnicza1-Łagiewniki1" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="Rzemieślnicza1" to="Łagiewniki1"/>
-    <link id="Łagiewniki1-ŁagiewnikiZUS1" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="Łagiewniki1" to="ŁagiewnikiZUS1"/>
-    <link id="ŁagiewnikiZUS1-Solvay1" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="ŁagiewnikiZUS1" to="Solvay1"/>
-    <link id="Solvay1-BorekFałęckiI1" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="Solvay1" to="BorekFałęckiI1"/>
-    <link id="BorekFałęckiI1-BorekFałęcki1" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="BorekFałęckiI1" to="BorekFałęcki1"/>
-
-    <!-- Łagiewniki4 -> ŁagiewnikiZUS1 -->
-    <link id="Łagiewniki4-ŁagiewnikiZUS1" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="Łagiewniki4" to="ŁagiewnikiZUS1"/>
-
-    <!-- CzerwoneMakiP+R1 -> Chmieleniec2 -> KampusUJ2 -> Ruczaj2 -> Norymberska2 -> Grota-Roweckiego2 -> Lipińskiego2 -> Borsucza1 -> Brożka(nż)1 -> Łagiewniki4 -> Łagiewniki2 -->
-    <link id="CzerwoneMakiP+R1-Chmieleniec2" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="CzerwoneMakiP+R1" to="Chmieleniec2"/>
-    <link id="Chmieleniec2-KampusUJ2" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="Chmieleniec2" to="KampusUJ2"/>
-    <link id="KampusUJ2-Ruczaj2" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="KampusUJ2" to="Ruczaj2"/>
-    <link id="Ruczaj2-Norymberska2" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="Ruczaj2" to="Norymberska2"/>
-    <link id="Norymberska2-Grota-Roweckiego2" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="Norymberska2" to="Grota-Roweckiego2"/>
-    <link id="Grota-Roweckiego2-Lipińskiego2" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="Grota-Roweckiego2" to="Lipińskiego2"/>
-    <link id="Lipińskiego2-Borsucza1" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="Lipińskiego2" to="Borsucza1"/>
-    <link id="Borsucza1-Brożka(nż)1" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="Borsucza1" to="Brożka(nż)1"/>
-    <link id="Brożka(nż)1-Łagiewniki4" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="Brożka(nż)1" to="Łagiewniki4"/>
-    <link id="Łagiewniki4-Łagiewniki2" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="Łagiewniki4" to="Łagiewniki2"/>
-
-
-    <!-- Łagiewniki1 -> Łagiewniki5 -> Brożka(nż)2 -> Borsucza2 -> Lipińskiego1 -> Grota-Roweckiego1 -> Norymberska1 -> Ruczaj1 -> KampusUJ1 -> Chmieleniec1 -> CzerwoneMakiP+R1 -->
-    <link id="Łagiewniki1-Łagiewniki5" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="Łagiewniki1" to="Łagiewniki5"/>
-    <link id="Łagiewniki5-Brożka(nż)2" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="Łagiewniki5" to="Brożka(nż)2"/>
-    <link id="Brożka(nż)2-Borsucza2" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="Brożka(nż)2" to="Borsucza2"/>
-    <link id="Borsucza2-Lipińskiego1" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="Borsucza2" to="Lipińskiego1"/>
-    <link id="Lipińskiego1-Grota-Roweckiego1" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="Lipińskiego1" to="Grota-Roweckiego1"/>
-    <link id="Grota-Roweckiego1-Norymberska1" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="Grota-Roweckiego1" to="Norymberska1"/>
-    <link id="Norymberska1-Ruczaj1" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="Norymberska1" to="Ruczaj1"/>
-    <link id="Ruczaj1-KampusUJ1" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="Ruczaj1" to="KampusUJ1"/>
-    <link id="KampusUJ1-Chmieleniec1" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="KampusUJ1" to="Chmieleniec1"/>
-    <link id="Chmieleniec1-CzerwoneMakiP+R1" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="Chmieleniec1" to="CzerwoneMakiP+R1"/>
-
-    <!-- Lipińskiego2 -> Kobierzyńska2 -> Słomiana2 -> Kapelanka2 -> Szwedzka2 -> RondoGrunwaldzkie2 -> Orzeszkowej2 -> Stradom1 -->
-    <link id="Lipińskiego2-Kobierzyńska2" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="Lipińskiego2" to="Kobierzyńska2"/>
-    <link id="Kobierzyńska2-Słomiana2" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="Kobierzyńska2" to="Słomiana2"/>
-    <link id="Słomiana2-Kapelanka2" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="Słomiana2" to="Kapelanka2"/>
-    <link id="Kapelanka2-Szwedzka2" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="Kapelanka2" to="Szwedzka2"/>
-    <link id="Szwedzka2-RondoGrunwaldzkie2" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="Szwedzka2" to="RondoGrunwaldzkie2"/>
-    <link id="RondoGrunwaldzkie2-Orzeszkowej2" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="RondoGrunwaldzkie2" to="Orzeszkowej2"/>
-    <link id="Orzeszkowej2-Stradom1" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="Orzeszkowej2" to="Stradom1"/>
-
-    <!-- Stradom3 -> Orzeszkowej1 -> RondoGrunwaldzkie1 -> Szwedzka1 -> Kapelanka1 -> Słomiana1 -> Kobierzyńska1 -> Lipińskiego1 -->
-    <link id="Stradom3-Orzeszkowej1" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="Stradom3" to="Orzeszkowej1"/>
-    <link id="Orzeszkowej1-RondoGrunwaldzkie1" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="Orzeszkowej1" to="RondoGrunwaldzkie1"/>
-    <link id="RondoGrunwaldzkie1-Szwedzka1" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="RondoGrunwaldzkie1" to="Szwedzka1"/>
-    <link id="Szwedzka1-Kapelanka1" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="Szwedzka1" to="Kapelanka1"/>
-    <link id="Kapelanka1-Słomiana1" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="Kapelanka1" to="Słomiana1"/>
-    <link id="Słomiana1-Kobierzyńska1" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="Słomiana1" to="Kobierzyńska1"/>
-    <link id="Kobierzyńska1-Lipińskiego1" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="Kobierzyńska1" to="Lipińskiego1"/>
-
-    <!-- Kobierzyńska1 -> Borsucza1 -->
-    <link id="Kobierzyńska1-Borsucza1" modes="pt" permlanes="1" capacity="2000" freespeed="22" length="1000" from="Kobierzyńska1" to="Borsucza1"/>
-
-
+    <link id="TeatrBagatela1-TeatrBagatela3" to="TeatrBagatela3" freespeed="20.0" capacity="500" permlanes="1" length="50" from="TeatrBagatela1"/>
+    <link id="TeatrBagatela3-TeatrBagatela1" to="TeatrBagatela1" freespeed="20.0" capacity="500" permlanes="1" length="50" from="TeatrBagatela3"/>
+    <link id="RondoMogilskie1-RondoMogilskie2" to="RondoMogilskie2" freespeed="20.0" capacity="500" permlanes="1" length="50" from="RondoMogilskie1"/>
+  
   </links>
 </network>

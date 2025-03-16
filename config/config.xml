@@ -8,7 +8,7 @@
 	</module>
 
 	<module name="network">
-		<param name="inputNetworkFile" value="network.xml" />
+		<param name="inputNetworkFile" value="network2.xml" />
 	</module>
 
 	<module name="plans">
@@ -17,8 +17,8 @@
 
 	<module name="transit">
 		<param name="useTransit" value="true" />
-		<param name="transitScheduleFile" value="transitschedule.xml" />
-		<param name="vehiclesFile" value="transitVehicles.xml" />
+		<param name="transitScheduleFile" value="transitschedule2.xml" />
+		<param name="vehiclesFile" value="transitVehicles2.xml" />
 		<param name="transitModes" value="pt" />
 	</module>
 
@@ -55,21 +55,19 @@
 		<param name="lateArrival" value="-18" />
 		<param name="earlyDeparture" value="-18" />
 		<param name="performing" value="+6" />
-		<!--<param name="traveling" value="-6" />
-		<param name="waiting" value="0" />
-		-->
-		<param name="utilityOfLineSwitch" value="-1" />
+		
+		<param name="utilityOfLineSwitch" value="1" />
 
 			<parameterset type="modeParams">
 				<param name="mode" value="car"/>
-				<param name="marginalUtilityOfTraveling_util_hr" value="-6.0" />
+				<param name="marginalUtilityOfTraveling_util_hr" value="-20000.0" />
 			</parameterset>
 			<parameterset type="modeParams">
 				<param name="mode" value="pt"/>
 			</parameterset>
 			<parameterset type="modeParams">
-				<param name="marginalUtilityOfDistance_util_m" value="0.0" />
-				<param name="marginalUtilityOfTraveling_util_hr" value="-12.0" />
+				<param name="marginalUtilityOfDistance_util_m" value="-200000000000.0" />
+				<param name="marginalUtilityOfTraveling_util_hr" value="-200000000000000.0" />
 				<param name="mode" value="walk"/>
 				<param name="constant" value="-0.0" />
 			</parameterset>
@@ -93,7 +91,7 @@
 
 		<parameterset type="strategysettings">
 			<param name="strategyName" value="ReRoute"/>
-			<param name="weight" value="0.1"/>
+			<param name="weight" value="0.5"/>
 		</parameterset>
 
 		<parameterset type="strategysettings">
@@ -106,17 +104,15 @@
 		<module name="transitRouter" >
 
 		<!-- additional time the router allocates when a line switch happens, Can be interpreted as a 'savity' time that agents need to savely transfer from one line to another -->
-		<param name="additionalTransferTime" value="0.0" />
+		<param name="additionalTransferTime" value="15.0" />
 
 		<!-- step size to increase searchRadius if no stops are found -->
-		<param name="extensionRadius" value="1000.0" />
+		<param name="extensionRadius" value="0.0000001" />
 
 		<!-- maximum beeline distance between stops that agents could transfer to by walking -->
-		<param name="maxBeelineWalkConnectionDistance" value="20.0" />
+		<param name="maxBeelineWalkConnectionDistance" value="0.0000000001" />
 
 		<!-- the radius in which stop locations are searched, given a start or target coordinate -->
-		<param name="searchRadius" value="10.0" />
+		<param name="searchRadius" value="0.0001" />
 	</module>
-
-
 </config>
